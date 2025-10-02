@@ -4,3 +4,10 @@ theme:
   name: material
 nav:
   - Home: index.md
+  - Getting Started:
+      - Sign Up: signup.md
+      - Sign In: signin.md
+  - Documents: documents.md
+  - Workflows: workflows.md
+  - Settings: settings.md
+  - Languages: languages.md
