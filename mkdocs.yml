@@ -1,0 +1,6 @@
+site_name: vScrawl User Guide
+site_url: https://dictalabs.github.io/vscrawl-user-guide/
+theme:
+  name: material
+nav:
+  - Home: index.md
