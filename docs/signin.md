@@ -4,12 +4,16 @@
 Go to: [vScrawl Login](https://app.vscrawl.com/sign-in?redirectURL=%2Fdocuments%2Fall-documents)
 
 ## Enter Credentials
-- Enter your registered **email**.  
-- Type your **password** (case-sensitive).  
-- Click **Sign In**.
 
-## Alternative Sign In
-- **Google Authentication** – Click *Continue with Google*.  
-- **Keycloak Authentication** – Click *Continue with Keycloak* and enter your credentials.  
+- Enter your **registered email address**.
+    
+- Type your **password** (case-sensitive).
+    
+- Click **Sign In** to access your **vScrawl** account.
 
-After successful login, you are redirected to the vScrawl Dashboard.
+![vScrawl Signin](../images/signin-screen.png)
+## Signup / Sign-in using Google Authentication or Keycloak
+
+You can sign in using either **Google authentication** or **Key cloak authentication**. On the login page, simply choose **“Continue with Google”** and select your Google account. If prompted, enter your Google password.
+
+Alternatively, if your organization uses Key cloak, click **“Continue with Key cloak”** and enter your Key cloak username and password. Once authenticated, you will be redirected to the **vScrawl** **Dashboard**.

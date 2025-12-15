@@ -2,6 +2,21 @@ site_name: vScrawl User Guide
 site_url: https://dictalabs.github.io/vscrawl-user-guide/
 theme:
   name: material
+  theme_dir: docs/custom_theme
+  logo: images/vscrawl-logo.png
+  favicon: images/vscrawl-favicon.png
+
+extra_css:
+  - extra.css
+
+extra:
+  generator: false  # This disables the "Made with Material for MkDocs" footer
+  footer: "© 2025 Dictalabs. All rights reserved."
+
+extra_javascript:
+  - extra.js  # Make sure to point to the correct location of extra.js
+
+copyright: "© 2025 Dictalabs. All rights reserved."
 nav:
   - Home: index.md
   - Getting Started:
