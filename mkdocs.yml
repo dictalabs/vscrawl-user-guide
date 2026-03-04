@@ -26,3 +26,4 @@ nav:
   - Workflows: workflows.md
   - Settings: settings.md
   - Languages: languages.md
+  - iFrame Integration: iframe.md

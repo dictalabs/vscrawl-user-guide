@@ -94,13 +94,15 @@ In vScrawl, digital signatures provide a secure, reliable, and legally compliant
     
 - To perform signing using **Smart Card or USB Token** make sure a smart card or a USB token is connected with your PC and then select the desired option.
     
-- Now for this you have to install **eTugra Signer** app for desktop and your smart card or USB token drivers.
-    
-- When you click on **“Smart Card or USB token”** option this is the screen you will get after clicking. Click on **Approve button for eTugra signer app.**
+- Now for this you have to install **SmartXipher** **app** for desktop and your smart card or USB token drivers.
+
+![vScrawl Documents](../images/client-signing-app.png)
+
+- When you select the **“Smart Card or USB Token”** option, the **SmartXipher** signing screen is displayed. The system verifies the user’s **digital certificate** through **SmartXipher**. Once the certificate is successfully validated, click the **Sign** button to complete the digital signing process.
 
 ![vScrawl Documents](../images/client-sign-confirm.png)
 
-- A dialog will appear from where choose the appropriate signing certificate. On the next dialog, enter the smart card or USB token password and the signing process will be completed.
+- A dialog will appear from where choose the appropriate signing **certificate**. On the next dialog, enter the **smart card or USB token** password and the signing process will be completed.
     
 - Click on **View button** to see your signatures on the document and the **document is signed**.
 
@@ -129,6 +131,20 @@ In vScrawl, digital signatures provide a secure, reliable, and legally compliant
 - Each signer will receive an email with the link to sign the document. The signer can login and sign the document in pending sate.
     
 - After signing, the **document** automatically updates in real time, and other **designated signers** can proceed with their part of the **signing process**.
+
+## Protecting Documents with Access Code in Multi-Sign Flow
+
+**vScrawl** allows you to enhance the **security** of your **documents** during a **Multi-Sign Flow** by assigning an **Access Code**. This ensures that only the intended **recipient** who has the code can open and view the document.
+
+### What Is an Access Code?
+
+An **Access Code** is a **security PIN** that you set while sending a **document** for **signature.** Only **recipients** who enter this code will be able to open the document, providing an additional layer of protection.
+
+### Why Use an Access Code?
+
+Using an **access code** enhances document **security** by preventing **unauthorized access**, protecting **sensitive information**, and giving the sender control over who can participate in the **signing** or viewing process. It is especially useful in **multi-signature workflows,** where multiple parties need controlled and secure access.
+
+![vScrawl Documents](../images/access-code-multisign.png)
 
 ## Using the Signature Panel in vScrawl
 

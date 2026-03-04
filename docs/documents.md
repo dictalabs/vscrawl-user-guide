@@ -42,6 +42,39 @@ The central area of the Dashboard displays a **table of documents** with clear d
 
 The document list is **paginated**. At the bottom, you can adjust how many items to display per page and use navigation arrows to move between pages.
 
+## Folder Creation For Managing Documents:
+
+**vScrawl** allows users to organize documents efficiently by creating **folders**. This feature helps you keep your **documents** structured and easily accessible.
+
+**Create a Folder**
+
+·      Go to the **Folders** section on the **left sidebar.**
+
+·      Click the “+” icon to add a **new folder.**
+
+·      Enter a folder name (up to **50 characters).**
+
+·      Click **Save** to create it (or **Cancel** to **exit**).
+
+·      The **folder** will now appear under the **Folders** list.
+
+
+![vScrawl Documents](../images/folder-creation.png)
+
+## Move Documents into a Folder
+
+·      Open All **Documents** (or any other document list).
+
+·      Click the **three dots (****⋮****)** next to the document.
+
+·      Select **Move** to Folder.
+
+·      Choose the **folder** where you want to **move** the document.
+
+![vScrawl Documents](../images/move-documents.png)
+
+![vScrawl Documents](../images/move-documents-2.png)
+
 ## Search Bar
 
 The **Search Bar** at the top of your Document **Dashboard** makes it quick and easy to find specific documents without scrolling through the entire list.
