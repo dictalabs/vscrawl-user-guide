@@ -15,6 +15,10 @@ This is the most common and straightforward signing option.
 
 ![vScrawl Documents](../images/doc-prep-screen-with-filled-annations-2.png)
 
+> [!NOTE]
+> **Field Requirements:** Fields with the **Required Toggle (Right Panel)** set to **Enabled** must be filled to sign; otherwise, all fields are optional.
+
+
 - For the **New User** You have to **Choose how to create your signature:** Upload an **Image,** **Draw, or use Text.**
 
 ![vScrawl Documents](../images/signature-creation-screen-new-user.png)
@@ -30,6 +34,7 @@ This is the most common and straightforward signing option.
 - When you click on the View button on the **All Done notification.** You can view your **signatures** along with the **annotations on the document.**
 
 ![vScrawl Documents](../images/signed-document-aes-annotations.png)
+
 ## Digital Signatures
 In vScrawl, digital signatures provide a secure, reliable, and legally compliant way to sign documents, ensuring authenticity and trust at every step. The platform supports both **Advanced Electronic Signatures (AES)** and **Qualified Electronic Signatures (QES)**, offering flexibility depending on the level of assurance and compliance you require.
 

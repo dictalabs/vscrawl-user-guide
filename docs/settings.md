@@ -26,8 +26,11 @@ The **Profile Settings page** in vScrawl allows you to manage your **account det
 ### Security Settings
 
 - Here you can set the security settings for your account by setting up:  
+    Enable PassKey
     Enable Security Question  
     Enable 2-Factor Authentication
+    Enable Smart Card Authentication
+    
 
 ![vScrawl Settings](../images/security-settings.png)
 
@@ -63,7 +66,6 @@ Here you can **choose** how you **receive updates**:
 
 ![vScrawl Settings](../images/notification-settings.png)
 
-
 ## Organization Specific Settings
 ### Organization
 
@@ -71,9 +73,12 @@ Here you can see the **organization details**:
 **Organization Name**  
 **Owner Name**  
 **Owner Email**
+**Date Format**
 
 ![vScrawl Settings](../images/organization-details.png)
 
+> [!NOTE]
+> Only the **Organization Owner** has the authority to update the organization details.
 
 ### Roles
 Here you can **add roles** with different **permissions** and will **assign that role for inviting a new user** to your **organization.** The **roles** you will create will appear hear in the list. You can search different **roles** by using the **search** option.
@@ -109,11 +114,16 @@ Here you can **add roles** with different **permissions** and will **assign that
 ### Business Apps
 
 - You can add Business App or any third party app with vScrawl by adding proper details of the app like:  
-    **Client ID**  
-    **App name**  
-    **Description**  
-    **Call back URL**  
-    **Status**
+    
+    **Client ID** - A unique identifier generated for the application to authenticate with vScrawl.
+    
+    **App name** - The display name of the business or third-party application.
+    
+    **Description** - A brief summary describing the purpose of the application.
+    
+    **Call back URL**  The URL where vScrawl redirects the user after successful authentication.
+    
+    **Status** - Indicates whether the application is active or inactive.
 
 ![vScrawl Settings](../images/business-app-in-organization.png)
 
