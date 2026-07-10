@@ -1,29 +1,45 @@
 site_name: vScrawl User Guide
 site_url: https://dictalabs.github.io/vscrawl-user-guide/
+
 theme:
   name: material
   theme_dir: docs/custom_theme
   logo: images/vscrawl-logo.png
   favicon: images/vscrawl-favicon.png
+  features:
+    - navigation.instant
+  generator: false 
 
 extra_css:
   - extra.css
 
-extra:
-  generator: false  # This disables the "Made with Material for MkDocs" footer
-  footer: "© 2025 Dictalabs. All rights reserved."
-
 extra_javascript:
-  - extra.js  # Make sure to point to the correct location of extra.js
+  - extra.js
 
 copyright: "© 2025 Dictalabs. All rights reserved."
+
 nav:
   - Home: index.md
   - Getting Started:
       - Sign Up: signup.md
       - Sign In: signin.md
+  - Dashboard: dashboard.md
   - Documents: documents.md
-  - Workflows: workflows.md
+  - Folders: folders.md
+  - Workflows:
+      - Sign Yourself: sign_yourself.md
+      - Multiple Signers: multiple_signers.md
+  - Organization:
+      - Overview: organization_sections/overview.md
+      - Roles: organization_sections/roles.md
+      - Users: organization_sections/users.md
+      - Business Applications: organization_sections/applications.md
+      - Branding Settings: organization_sections/branding.md
   - Settings: settings.md
   - Languages: languages.md
-  - iFrame Integration: iframe.md
+  - Templates: templates.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

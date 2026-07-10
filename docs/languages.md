@@ -21,9 +21,11 @@
         - **Türkçe**
             
         - **Española**
+        
+		- **Arabic**
             
 - **Interface Update**
     
     - Once selected, the interface will automatically update to the selected language without requiring a page refresh.
 
-![vScrawl Settings](../images/dashboard-language-button.png)
+![vScrawl Settings](images/dashboard-language-button.png)

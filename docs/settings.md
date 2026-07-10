@@ -1,27 +1,43 @@
-# User & Organization Settings
+# User Settings
 
-## User Specific Settings
-### Profile Settings
+## User Specific Settings 
+### Settings
 
-The **Profile Settings page** in vScrawl allows you to manage your **account details, security preferences, online signatures, and notifications**. This is where you personalize your profile and ensure your signing experience is both secure and efficient.
+The  **Settings** page** in vScrawl allows you to manage your **account details, security preferences, online signatures, and notifications**. This is where you personalize your profile and ensure your signing experience is both secure and efficient.
 
 - Displays your **name and email address**.
     
-- Useful for confirming which account you are logged into.
+- Useful for confirming which **account** you are logged into.
     
-- Clicking the user cog in the left side panel allows access to **Profile, Organization, Templates and sign out.**
+- Clicking the **Settings** option in the left-side navigation panel allows users to access and manage **Account Settings, Signature Settings, Notification Settings, and Security Settings** from a centralized location.
 
-![vScrawl Settings](../images/profie-settings-account.png)
+![vScrawl Settings](images/profie-settings-account.png)
 
 ### Account Settings
 
-- **Name** – Display name shown in your vScrawl account.
+- **Full Name** – Display name shown in your vScrawl account.
     
 - **Username** – Unique identifier (used for login or internal reference).
     
 - **Email** – Registered email address (used for login, notifications, and signing).
+
+- **Language** - Your selected language.
+
+
     
 - After changes, click **Save** to update your profile.
+
+### Delete Account
+
+Users also have the option to permanently delete their account.
+
+To delete an account:
+
+1. Click **Delete My Account**
+2. Confirm the action when prompted
+
+!!! warning ""
+    **Note:** Account deletion may permanently remove user data and associated documents. This action should be performed carefully.
 
 ### Security Settings
 
@@ -32,7 +48,7 @@ The **Profile Settings page** in vScrawl allows you to manage your **account det
     Enable Smart Card Authentication
     
 
-![vScrawl Settings](../images/security-settings.png)
+![vScrawl Settings](images/security-settings.png)
 
 ### Signature Settings
 
@@ -40,13 +56,13 @@ The **Profile Settings page** in vScrawl allows you to manage your **account det
     
 - You can change your **signature type** and **appearance** anytime, depending on the security level required and **Set or update** your signature by clicking **Update Signature**.
 
-![vScrawl Settings](../images/setup-signature-types.png)
+![vScrawl Settings](images/setup-signature-types.png)
 
 - Your signature settings are applied across all documents you upload or sign in vScrawl.
     
 - If you are present in someone’s **organization** you can see your **signature quota’s** for **Simple** and **Digital Signatures**.
 
-![vScrawl Settings](../images/signature-quota.png)
+![vScrawl Settings](images/signature-quota.png)
 
 ### Notifications Settings
 
@@ -64,88 +80,41 @@ Here you can **choose** how you **receive updates**:
     
 - **Notify all signers when the workflow is completed**
 
-![vScrawl Settings](../images/notification-settings.png)
+![vScrawl Settings](images/notification-settings.png)
 
-## Organization Specific Settings
-### Organization
 
-Here you can see the **organization details**:  
-**Organization Name**  
-**Owner Name**  
-**Owner Email**
-**Date Format**
 
-![vScrawl Settings](../images/organization-details.png)
 
-> [!NOTE]
-> Only the **Organization Owner** has the authority to update the organization details.
 
-### Roles
-Here you can **add roles** with different **permissions** and will **assign that role for inviting a new user** to your **organization.** The **roles** you will create will appear hear in the list. You can search different **roles** by using the **search** option.
 
-![vScrawl Settings](../images/roles-organization.png)
 
-- This is the **Add Role screen** when you click on the **Add Role button.**
 
-![vScrawl Settings](../images/role-add-in-organization.png)
 
-- You can create a role with the **different permissions (Billing Details, Branding, Business Apps, Templates, Roles, Organizations and Users)** and the **signature quotas** you want and then can assign that role to any **users** and invite them to your **organization**.
 
-![vScrawl Settings](../images/role-user-permissions.jpg)
 
-![vScrawl Settings](../images/roles-signature-permissions.png)
 
-### Users
 
-- Here you can see the list of **users** who have **joined your organization**.
-    
-- You can update the role of users in your organization.
-    
-- You can also **renew** their **signature Quotas.**
-    
-- You can **delete user** from your organization.
-    
-- You can invite a new user to your **organization** by giving him the **roles & permissions** you want.  
 
-![vScrawl Settings](../images/users-in-organization.png)
 
-![vScrawl Settings](../images/inviting-user-in-organization.png)
 
-### Business Apps
 
-- You can add Business App or any third party app with vScrawl by adding proper details of the app like:  
-    
-    **Client ID** - A unique identifier generated for the application to authenticate with vScrawl.
-    
-    **App name** - The display name of the business or third-party application.
-    
-    **Description** - A brief summary describing the purpose of the application.
-    
-    **Call back URL**  The URL where vScrawl redirects the user after successful authentication.
-    
-    **Status** - Indicates whether the application is active or inactive.
 
-![vScrawl Settings](../images/business-app-in-organization.png)
 
-![vScrawl Settings](../images/business-app-detail-in-organization.png)
-### Branding Settings
-Here you can customize the **color,** **theme** and **overall look** of the app. There are **multiple options** for customization like:  
-**Header Section**  
-**Left Panel Section**  
-**Buttons Section**
 
-![vScrawl Settings](../images/branding-screen-settings-1.png)
 
-![vScrawl Settings](../images/branding-screen-settings-2.png)
 
-### Billing Details
-- Here you can see your billing details like:  
-    **Account Balance**  
-    **Available Credits**  
-    **Last Purchased Credits**  
-    **Credits Purchased Date**  
-    **Credits Expiry Date.**  
-    This will depend on the admin **roles permission** and the **package** you have allocated. When you create a **new account** on vScrawl there will be a **package** allocated to you which have a **credit limits and duration** for signing the documents. Your **balance will be deducted** on each signature and other activities.
 
-![vScrawl Settings](../images/billing-details-organization.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
