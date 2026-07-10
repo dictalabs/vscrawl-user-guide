@@ -38,6 +38,7 @@ nav:
   - Settings: settings.md
   - Languages: languages.md
   - Templates: templates.md
+  - IFrame Integration: iframe.md
 
 markdown_extensions:
   - admonition
