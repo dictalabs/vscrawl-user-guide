@@ -11,7 +11,7 @@ To use the vScrawl iFrame, you must first register a **Business Application** in
 4. Fill in the required fields (App Name, description, etc.).
 5. Click **Add** again to save.
 
-![vScrawl Signup](../images/iframe-add-app.png)
+![vScrawl Signup](../images/adding-new-app.png)
 Once created, your application will appear in the **App List**.
 ## Generate Client Secret
 

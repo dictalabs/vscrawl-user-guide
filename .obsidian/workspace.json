@@ -171,6 +171,16 @@
   },
   "active": "de64554daf6c2838",
   "lastOpenFiles": [
+    "docs/folders.md",
+    "docs/iframe.md",
+    "docs/organization_sections/applications.md",
+    "docs/organization.md",
+    "docs/settings.md",
+    "docs/sign_yourself.md",
+    "docs/signin.md",
+    "docs/signup.md",
+    "docs/templates.md",
+    "docs/workflows.md",
     "site/search/search_index.json",
     "site/search",
     "site/workflows/index.html",
@@ -181,7 +191,6 @@
     "site/signin",
     "site/settings/index.html",
     "site/settings",
-    "site/languages/index.html",
     "site/assets/images/favicon.png",
     "site/images/vscrawl-logo.png",
     "site/images/vscrawl-favicon.png",
@@ -194,10 +203,6 @@
     "site/images/signing-confirmation-screen-ses.png",
     "docs/languages.md",
     "docs/index.md",
-    "docs/workflows.md",
-    "docs/signup.md",
-    "docs/signin.md",
-    "docs/settings.md",
     "docs/documents.md"
   ]
 }
