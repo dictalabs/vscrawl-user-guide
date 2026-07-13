@@ -1,12 +1,14 @@
-# iFrame Integration Guide
+# vScrawl Integration Guide
 
-This guide explains how to integrate the **vScrawl** into your application using an **iFrame**. It covers application registration, credential generation, access token creation, and iFrame implementation.
+This guide explains how to Integrate **vScrawl** into your website or application, so you can prepare and sign documents without leaving your app. It covers business application registration, credential generation, access token creation, and iFrame implementation.
+
+Once a document workflow is created, the signing/preparation experience runs entirely inside your own interface.
 ## Register a Business Application
 
-To use the vScrawl iFrame, you must first register a **Business Application** in the vScrawl.
+To use the vScrawl Integration, you must first register a **Business Application** in vScrawl.
 
 1. Log in to your **vScrawl** account.
-2. Navigate to **user cog in the left navigation panel >** **Organization > Business App**.
+2. Navigate to **Organization** from the left panel, then click on **Business App**.
 3. Click **Add**.
 4. Fill in the required fields (App Name, description, etc.).
 5. Click **Add** again to save.
@@ -28,7 +30,7 @@ Copy the **Client Secret** immediately and store it securely.
 
 ## Generate an Access Token
 
-An **Access Token** is required to authenticate and load the vScrawl iFrame.
+An **Access Token** is required to authenticate and load the vScrawl .
 
 **API Details**
 
@@ -38,25 +40,22 @@ An **Access Token** is required to authenticate and load the vScrawl iFrame.
 
 **Request Body (JSON)**
 
+```json
 {
-
-  "grant_type": "CLIENT_CREDENTIALS",
-
-  "clientId": "{{app_name}}",
-
-  "clientSecret": "{{client_secret}}",
-
-  "email": "{{user_email}}"
-
+  "grant_type": "CLIENT_CREDENTIALS",
+  "clientId": "{{app_name}}",
+  "clientSecret": "{{client_secret}}",
+  "email": "{{user_email}}"
 }
+```
 
 **Response**
 
-On success, the API returns an **access token**. Save this token and use it in the iFrame URL.
+On success, the API returns an **access token**. Save this token and use it in the URL.
 
-## Embed VScrawl Using an iFrame
+## Integrate vScrawl Using an iFrame
 
-Once you have the access token and workflow ID, embed the VScrawl editor in your application using an iFrame.
+Once you have the access token and workflow ID, embed the vScrawl editor in your application using an iFrame.
 
 **Sample HTML**
 
@@ -65,27 +64,27 @@ Once you have the access token and workflow ID, embed the VScrawl editor in your
 
 <html>
 
-  <body>
+  <body>
 
-    <h1>My VScrawl iframe</h1>
+    <h1>My vScrawl Integration </h1>
 
-    <iframe
+    <iframe
 
-      src="https://app.yourdomain.com/documents/prepare?wId={{WORKFLOW_ID}}&clientToken={{ACCESS_TOKEN}}"
+      src="https://app.yourdomain.com/documents/prepare?wId={{WORKFLOW_ID}}&clientToken={{ACCESS_TOKEN}}"
 
-      width="100%"
+      width="100%"
 
-      height="800px"
+      height="800px"
 
-      frameborder="0"
+      frameborder="0"
 
-      allow="clipboard-read; clipboard-write; fullscreen"
+      allow="clipboard-read; clipboard-write; fullscreen"
 
-      title="VScrawl Document Editor">
+      title="vScrawl Document Editor">
 
-    </iframe>
+    </iframe>
 
-  </body>
+  </body>
 
 </html>
 ```
@@ -102,4 +101,4 @@ Once you have the access token and workflow ID, embed the VScrawl editor in your
 - Rotate secrets periodically.
 - Use HTTPS for all API and iframe integrations.
 
-For any issues or questions, contact the vsScrawl support team.
+For any issues or questions, contact the vScrawl support team.
