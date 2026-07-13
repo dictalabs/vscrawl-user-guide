@@ -55,7 +55,7 @@ On success, the API returns an **access token**. Save this token and use it in t
 
 ## Integrate vScrawl Using an iFrame
 
-Once you have the access token and workflow ID, embed the vScrawl editor in your application using an iFrame.
+Once you have the access token and workflow ID, Integrate the vScrawl editor in your application using an iFrame.
 
 **Sample HTML**
 
@@ -63,29 +63,17 @@ Once you have the access token and workflow ID, embed the vScrawl editor in your
 <!DOCTYPE html>
 
 <html>
-
   <body>
-
     <h1>My vScrawl Integration </h1>
-
     <iframe
-
       src="https://app.yourdomain.com/documents/prepare?wId={{WORKFLOW_ID}}&clientToken={{ACCESS_TOKEN}}"
-
       width="100%"
-
       height="800px"
-
       frameborder="0"
-
       allow="clipboard-read; clipboard-write; fullscreen"
-
       title="vScrawl Document Editor">
-
     </iframe>
-
   </body>
-
 </html>
 ```
 
