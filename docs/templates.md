@@ -15,8 +15,7 @@ For each template, you have quick access controls:
 - Adjust how many templates are displayed per page (e.g., 10, 20, 50).
     
 - Navigate between pages if there are many templates.
-    
-- Navigate between pages if there are many templates.
+
 
 
 ![Pasted image 20260601114536.png](images/Pasted image 20260601114536.png)

@@ -25,8 +25,6 @@ The **Search Documents by Name** feature allows users to quickly locate specific
 3. Enter the full document name or a keyword related to the document.
 4. The document list will automatically update and display matching results.
 
-![document-listv3.png](images/document-listv3.png)
-
 ### Combining Search with Status Filters
 
 Search results can be further refined using the document status filters available above the document list:
@@ -109,38 +107,3 @@ Improve document organization and identification by using the **Rename** option 
 You can download **complete document** and its **certificate of completion (Evidence Report**) in the form of a **.zip file** or either you can choose **selective download.**
 
 ![download-documents-three.png](images/download-documents-three.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

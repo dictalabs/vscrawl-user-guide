@@ -31,13 +31,10 @@ The new folder will appear in the folder list and will be available for organizi
 
 ## Move Documents into a Folder
 
-·      Open All **Documents** (or any other document list).
-
-·      Click the **three dots (****⋮****)** next to the document.
-
-·      Select **Move** to Folder.
-
-·      Choose the **folder** where you want to **move** the document.
+- Open All **Documents** (or any other document list).
+- Click the **three dots (****⋮****)** next to the document.
+- Select **Move** to Folder.
+- Choose the **folder** where you want to **move** the document.
 
 ![Pasted image 20260601122037.png](images/Pasted image 20260601122037.png)
 

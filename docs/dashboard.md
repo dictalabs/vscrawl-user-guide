@@ -126,7 +126,7 @@ Available navigation options include:
 
 The sidebar is designed to provide fast and convenient navigation throughout the platform while maintaining a clean and user-friendly experience.
 
-![Sidebar Navigation](images/sidebar-navigation.png)
+![Sidebar Navigation](images/dashboard-screen.png)
 
 
 ## Benefits of the Dashboard
@@ -138,60 +138,3 @@ The Dashboard provides users with:
 - Quick access to important statistics.
 - Faster document management and tracking.
 - Improved visibility into signing progress and team performance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

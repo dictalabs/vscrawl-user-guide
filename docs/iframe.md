@@ -13,7 +13,7 @@ To use the vScrawl Integration, you must first register a **Business Application
 4. Fill in the required fields (App Name, description, etc.).
 5. Click **Add** again to save.
 
-![vScrawl Signup](../images/adding-new-app.png)
+![vScrawl Signup](images/adding-new-app.png)
 Once created, your application will appear in the **App List**.
 ## Generate Client Secret
 
@@ -25,7 +25,7 @@ After registering the application, generate security credentials.
 
 Copy the **Client Secret** immediately and store it securely.
 
-![vScrawl Signup](../images/iframe-client-secret.png)
+![vScrawl Signup](images/iframe-client-secret.png)
 **Important:** The Client Secret is shown only once. If lost, you must regenerate it.
 
 ## Generate an Access Token

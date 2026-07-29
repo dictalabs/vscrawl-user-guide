@@ -14,9 +14,9 @@ Go to: [vScrawl Login](https://app.vscrawl.com/sign-in?redirectURL=%2Fdocuments%
 ![vScrawl Signin](images/signin-screen.png)
 ## Signup / Sign-in using Google Authentication or Keycloak
 
-You can sign in using either **Google authentication** or **Key cloak authentication**. On the login page, simply choose **“Continue with Google”** and select your Google account. If prompted, enter your Google password.
+You can sign in using either **Google authentication** or **Keycloak authentication**. On the login page, simply choose **“Continue with Google”** and select your Google account. If prompted, enter your Google password.
 
-Alternatively, if your organization uses Key cloak, click **“Continue with Key cloak”** and enter your Key cloak username and password. Once authenticated, you will be redirected to the **vScrawl** **Dashboard**.
+Alternatively, if your organization uses Keycloak, click **“Continue with Keycloak”** and enter your Keycloak username and password. Once authenticated, you will be redirected to the **vScrawl** **Dashboard**.
 
 ## Signup / Sign-in with the Smart Card Using the SmartXipher App
 

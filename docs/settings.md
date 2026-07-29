@@ -42,10 +42,10 @@ To delete an account:
 ### Security Settings
 
 - Here you can set the security settings for your account by setting up:  
-    Enable PassKey
-    Enable Security Question  
-    Enable 2-Factor Authentication
-    Enable Smart Card Authentication
+    - **Enable PassKey**
+    - **Enable Security Question**
+    - **Enable 2-Factor Authentication**
+    - **Enable Smart Card Authentication**
     
 
 ![vScrawl Settings](images/security-settings.png)
@@ -81,9 +81,6 @@ Here you can **choose** how you **receive updates**:
 - **Notify all signers when the workflow is completed**
 
 ![vScrawl Settings](images/notification-settings.png)
-
-
-
 
 
 
