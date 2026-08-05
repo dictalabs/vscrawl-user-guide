@@ -27,9 +27,10 @@ The **Upload Document** button allows users to quickly initiate a new document w
 To upload a document:
 
 1. Click **Upload Document**.
-2. Select the desired file from your device.
-3. Configure recipients, signatures, and workflow settings as required.
-4. Submit the document for processing.
+2. Choose a signing method from the dialog that opens: **Sign Yourself**, **Multiple Recipients**, or **Power Survey**. See [Documents](documents.md) for details on each option.
+3. Select the desired file from your device.
+4. Configure recipients, signatures, and workflow settings as required.
+5. Submit the document for processing.
 
 This action provides a fast and efficient way to begin a new signing or approval process directly from the Dashboard.
 
@@ -65,6 +66,12 @@ This information helps administrators and team leads monitor user participation 
 
 ---
 
+#### Your Folders
+
+If you have any folders, a **Your Folders** section appears between the summary cards and Recent Documents, giving you quick access to your folders directly from the Dashboard without navigating to the [Folders](folders.md) page.
+
+---
+
 #### Recent Documents
 
 The **Recent Documents** section provides a quick view of the latest documents created, uploaded, or processed within the account.
@@ -90,7 +97,7 @@ Documents displayed on the Dashboard may contain status indicators that represen
 |---|---|
 |Draft|The document has been created but has not yet been sent for signing.|
 |Pending|The document is awaiting action from one or more recipients.|
-|Complete|All required signatures and workflow steps have been successfully completed.|
+|Completed|All required signatures and workflow steps have been successfully completed.|
 |Signed|The document has been signed by the required participants.|
 |Void|The document has been cancelled or invalidated and can no longer be processed.|
 

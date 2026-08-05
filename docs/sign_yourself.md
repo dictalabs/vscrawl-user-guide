@@ -5,7 +5,7 @@ vScrawl supports **several signing options**, depending on your needs:
 ## Simple Electronic Signature
 This is the most common and straightforward signing option.
 
-- Upload a document → **Sign Only**.
+- Upload a document → **Sign Yourself**.
     
 - Drop a **signature field** and **annotations** on the document.
     
@@ -31,7 +31,7 @@ This is the most common and straightforward signing option.
 
 - When you click on the View button on the **All Done notification.** You can view your **signatures** along with the **annotations on the document.**
 
-![vScrawl Documents](images/signed-document-aes-annotations.png)
+![[vscrawl-user-guide/docs/images/signed-document-ses-annotations.png|vScrawl Documents]]
 
 - **You can also access the Audit Report for a document by clicking the Audit Report button.** The Audit Report provides a detailed history of the document workflow, including recipient actions, timestamps, status changes, IP addresses, and device information, helping maintain transparency and compliance throughout the signing process.
 ![vScrawl Documents](images/signed-document-audit-report.png)
@@ -39,7 +39,7 @@ This is the most common and straightforward signing option.
 
 In vScrawl, digital signatures provide a secure, reliable, and legally compliant way to sign documents, ensuring authenticity and trust at every step. The platform supports both **Advanced Electronic Signatures (AES)** and **Qualified Electronic Signatures (QES)**, offering flexibility depending on the level of assurance and compliance you require.
 
-- Upload a document → **Sign Only**
+- Upload a document → **Sign Yourself**
     
 - Drop a signature field and annotations on the document from the left-hand panel and select one of the **Advanced Electronic Signature / Qualified Electronic Signature** from the **signature type** drop down on right-hand panel.
     

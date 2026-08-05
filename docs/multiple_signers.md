@@ -2,7 +2,7 @@
 
 ## Multi-User Signing
 
-- Click Upload Document → **Sign with Others**
+- Click Upload Document → **Multiple Recipients**
 - Select your file **(Browser from your PC or drag a document to upload)** Now click on the **Add Signers button**.  
     
 
@@ -22,7 +22,11 @@
     
 - You can move back to **Add Signers** screen by clicking on the **Add Signers** button on top of the document and **edit their details** before the document is sent for signing.
     
-- Before Sending the document, you may click on **Save as Template** button to choose **Save as Template.** A form will open where you can specify a template name and optional description. Such saved templates can later be reused to avoid uploading an preparing the same document in the future. This is explained more in [Templates](templates.md).
+- Before Sending the document, you may click on **Save as Template** button to choose **Save as Template.** A form will open where you can specify a **Template Name**, optional **Description**, and a **Destination folder** to save it into. Such saved templates can later be reused to avoid uploading an preparing the same document in the future. This is explained more in [Templates](templates.md).
+
+- In the same form, under **Recipient labels (optional)**, you can turn any recipient into a **placeholder role** (e.g. "QA Engineer") instead of keeping their real name and email. Whoever applies the template later will be required to fill in the actual recipient for that role.
+
+![save-as-template-recipient-labels.png](images/save-as-template-recipient-labels.png)
 
 ![vScrawl Documents](images/multisign-doc-prep.png)
 

@@ -9,7 +9,7 @@ The  **Settings** page** in vScrawl allows you to manage your **account details,
     
 - Useful for confirming which **account** you are logged into.
     
-- Clicking the **Settings** option in the left-side navigation panel allows users to access and manage **Account Settings, Signature Settings, Notification Settings, and Security Settings** from a centralized location.
+- Clicking the **Settings** option in the left-side navigation panel allows users to access and manage **Account Settings, Signature Settings, Notification Settings, Security Settings, Assistant, and Auto Delegation** from a centralized location.
 
 ![vScrawl Settings](images/profie-settings-account.png)
 
@@ -44,8 +44,8 @@ To delete an account:
 - Here you can set the security settings for your account by setting up:  
     - **Enable PassKey**
     - **Enable Security Question**
-    - **Enable 2-Factor Authentication**
-    - **Enable Smart Card Authentication**
+    - **Enable Two-Factor Authentication**
+    - **Smart Card Authentication**
     
 
 ![vScrawl Settings](images/security-settings.png)
@@ -78,9 +78,49 @@ Here you can **choose** how you **receive updates**:
     
 - **Notify me when someone declines to sign my document**
     
-- **Notify all signers when the workflow is completed**
+- **Notify all recipients when the workflow is completed**
 
 ![vScrawl Settings](images/notification-settings.png)
+
+### Assistant
+
+The **Assistant** tab lets you route your incoming documents through a **Personal Assistant** — someone who pre-reviews, fills fields, and approves or declines on your behalf. You always remain the one who finishes signing or approving; other people on the document only ever see your name, never your assistant's.
+
+By default, **Personal Assistant** is turned off.
+
+![settings-assistant-off.png](images/settings-assistant-off.png)
+
+To enable it:
+
+1. Toggle **Personal Assistant** on.
+2. Enter the **Assistant's Email** — the address that will receive documents to pre-review on your behalf.
+3. Optionally enter the **Assistant's Name**.
+4. Click **Save**.
+
+![settings-assistant-on.png](images/settings-assistant-on.png)
+
+!!! note ""
+    Your assistant is never shown to other recipients or document owners — all activity still appears under your own name.
+
+### Auto Delegation
+
+The **Auto Delegation** tab lets you hand your signing and approval turns to someone else automatically while you are away, for a specific date range.
+
+By default, **Enable Auto Delegation** is turned off.
+
+![settings-auto-delegation-off.png](images/settings-auto-delegation-off.png)
+
+To enable it:
+
+1. Toggle **Enable Auto Delegation** on.
+2. Enter the **Delegate Name** and **Delegate Email** of the person who should receive your documents.
+3. Set **Away From** and **Away Until** — the date range during which delegation is active.
+4. Click **Save**.
+
+![settings-auto-delegation-on.png](images/settings-auto-delegation-on.png)
+
+!!! warning ""
+    Documents handed over while this is on stay with your delegate — turning Auto Delegation off later does not bring them back.
 
 
 

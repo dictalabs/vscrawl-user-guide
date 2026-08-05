@@ -76,8 +76,13 @@ Documents may display different statuses, such as:
 |Status|Description|
 |---|---|
 |Draft|The document is still being prepared and has not been sent for signing.|
+|Pending|The document is awaiting action from one or more recipients.|
+|Sent|The document has been sent to recipients but no action has been taken yet.|
+|Viewed|A recipient has opened the document.|
 |Signed|The signing process has been completed successfully.|
-|Complete|All required actions and signatures have been finalized.|
+|Approved|The document has been approved by an approver in the workflow.|
+|Completed|All required actions and signatures have been finalized.|
+|Void|The document has been cancelled or invalidated and can no longer be processed.|
 
 ---
 ## Document Actions

@@ -66,7 +66,7 @@ Once you have the access token and workflow ID, Integrate the vScrawl editor in 
   <body>
     <h1>My vScrawl Integration </h1>
     <iframe
-      src="https://app.yourdomain.com/documents/prepare?wId={{WORKFLOW_ID}}&clientToken={{ACCESS_TOKEN}}"
+      src="https://app.yourdomain.com/client-embed?wId={{WORKFLOW_ID}}&clientToken={{ACCESS_TOKEN}}"
       width="100%"
       height="800px"
       frameborder="0"

@@ -16,7 +16,11 @@ To add a new business application:
     - **Description** _(Optional)_ – A brief description of the application's purpose.
     - **Callback URL** – The URL used to handle authentication and communication between vScrawl and the external application.
     - **Status** – Set the application as **Active** or **Inactive**.
-4. Click **Add App** to save the integration.
+4. Optionally configure **Webhooks** — notify this app's endpoint when signing events occur:
+    - Toggle **Webhooks** on to reveal the webhook fields.
+    - **Webhook URL** – The endpoint that will receive event notifications.
+    - **Events** – Select at least one event to notify on: **Document sent**, **Document signed**, **Document declined**, **Workflow completed**.
+5. Click **Add App** to save the integration.
 
 ![adding-new-app.png](../images/adding-new-app.png)
 ### Accessing Integrated Applications

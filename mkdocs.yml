@@ -25,16 +25,21 @@ nav:
       - Sign In: signin.md
   - Dashboard: dashboard.md
   - Documents: documents.md
+  - Audit Report: audit_report.md
   - Folders: folders.md
   - Workflows:
       - Sign Yourself: sign_yourself.md
       - Multiple Signers: multiple_signers.md
+      - Delegate a Recipient: delegate.md
+      - Power Survey: power_survey.md
   - Organization:
       - Overview: organization_sections/overview.md
       - Roles: organization_sections/roles.md
       - Users: organization_sections/users.md
       - Business Applications: organization_sections/applications.md
       - Branding Settings: organization_sections/branding.md
+      - Billing Details: organization_sections/billing.md
+      - Email Connector: organization_sections/email_connector.md
   - Settings: settings.md
   - Languages: languages.md
   - Templates: templates.md
