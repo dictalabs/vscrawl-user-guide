@@ -52,17 +52,73 @@ To delete an account:
 
 ### Signature Settings
 
-- In vScrawl, you can set up and manage the type of electronic signature you want to use by default, directly from your **Settings**. This ensures flexibility and compliance with different levels of security and legal requirements.
+The **Signature Settings** tab is where you manage everything you sign with: the assurance level applied when you sign, and the items you apply to documents — your **signatures**, **initials** and **stamps**.
+
+#### Signature type and allowance
+
+- Choose the assurance level applied when you sign a document: **Simple Electronic Signature**, **Advanced Electronic Signature** or **Qualified Electronic Signature**. The level currently applied is marked **IN USE**.
     
-- You can change your **signature type** and **appearance** anytime, depending on the security level required and **Set or update** your signature by clicking **Update Signature**.
+- If you belong to an **organization**, **Signature allowance** shows how many Electronic, Advanced and Qualified signatures your current plan includes.
 
 ![vScrawl Settings](images/setup-signature-types.png)
 
-- Your signature settings are applied across all documents you upload or sign in vScrawl.
-    
-- If you are present in someone’s **organization** you can see your **signature quota’s** for **Simple** and **Digital Signatures**.
+#### Your saved signatures, initials and stamps
 
-![vScrawl Settings](images/signature-quota.png)
+vScrawl keeps **three separate libraries**, so you can save more than one of each and apply the right one to each field you sign.
+
+![Saved signatures, initials and stamps](images/signature-settings-saved-items.png)
+
+| Section | Button | How the item is created |
+| --- | --- | --- |
+| **Your Saved Signatures** | **Add Signature** | Draw, type or upload |
+| **Your Saved Initials** | **Add Initial** | Draw, type or upload |
+| **Your Saved Stamps** | **Add Stamp** | Upload an image |
+
+- Each saved item appears as a card with its preview and a label — **Signature 1**, **Initials 1**, **Stamp 1** — numbered in the order you created them.
+    
+- How many items you can keep in each library is set by your administrator (**5** by default). Once a library is full, delete an item before adding another.
+    
+- **Appearance** shows how your signature is rendered on a signed document.
+
+!!! note ""
+    A stamp is uploaded as an image — it is used as a company seal or mark, and it never replaces a signature.
+
+#### The default item
+
+- The card marked **DEFAULT** is the one applied automatically when you click an empty field of that type.
+    
+- To change it, click **Set as default** on another card.
+    
+- A new default applies to documents you sign from that point on. Documents you have already signed keep the item they were signed with.
+
+#### Deleting an item
+
+- Click the bin icon on a card and confirm.
+    
+- If you delete the default, your oldest remaining item of that type becomes the new default.
+    
+- Documents you have already signed are never changed. If a document you currently have open uses the deleted item, that field is cleared so you can choose another one.
+
+#### Choosing which item to apply in a document
+
+Your saved items are applied while you fill in a document:
+
+1. Click an **empty** signature, initials or stamp field — your default item (or the one you picked most recently) is applied straight away.
+    
+2. Click the **same field again** — the picker opens so you can apply a different item to that field.
+
+![Choose a signature](images/signature-picker-choose-saved-item.png)
+
+From the picker you can:
+
+- select any saved item — it is applied to **that field only**,
+    
+- add a new signature, set of initials or stamp without leaving the document,
+    
+- delete an item you no longer need.
+
+!!! note ""
+    Your choice is remembered per field, so one document can carry a different signature on different fields.
 
 ### Notifications Settings
 
