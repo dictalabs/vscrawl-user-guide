@@ -83,6 +83,28 @@ vScrawl keeps **three separate libraries**, so you can save more than one of eac
 !!! note ""
     A stamp is uploaded as an image — it is used as a company seal or mark, and it never replaces a signature.
 
+#### Adding an item
+
+Click **Add Signature**, **Add Initial** or **Add Stamp** in the matching section. A dialog opens for that type only. Fill it in and click **Save** — **Save** stays inactive until there is something to save. **Close** discards it.
+
+**Add Signature** and **Add Initial** offer three ways to create the item, each on its own tab:
+
+| Tab | What you do |
+| --- | --- |
+| **Upload** | Click **Browse** and choose an image file from your device |
+| **Draw** | Draw the signature or initials by hand |
+| **Type** | Type your name and have it rendered in a handwriting style |
+
+![Add Signature](images/add-signature-dialog.png)
+
+![Add Initial](images/add-initial-dialog.png)
+
+**Add Stamp** has no tabs — a stamp can only be uploaded, so the dialog goes straight to **Browse**.
+
+![Add Stamp](images/add-stamp-dialog.png)
+
+The new item is added to that library and appears as a new card. If it is the first item of its type, it also becomes the default.
+
 #### The default item
 
 - The card marked **DEFAULT** is the one applied automatically when you click an empty field of that type.
@@ -93,11 +115,17 @@ vScrawl keeps **three separate libraries**, so you can save more than one of eac
 
 #### Deleting an item
 
-- Click the bin icon on a card and confirm.
-    
+Click the bin icon on a card. A confirmation dialog opens, naming the exact item you are about to remove — **Signature 2**, **Initials 2**, **Stamp 1** — so you can be sure it is the right one. Click **Delete** to remove it, or **Cancel** to keep it.
+
+![Delete Signature](images/delete-signature-dialog.png)
+
+![Delete Initials](images/delete-initials-dialog.png)
+
+![Delete Stamp](images/delete-stamp-dialog.png)
+
 - If you delete the default, your oldest remaining item of that type becomes the new default.
     
-- Documents you have already signed are never changed. If a document you currently have open uses the deleted item, that field is cleared so you can choose another one.
+- Documents you have already signed are never changed — they keep the signature, initials or stamp they were signed with. If a document you currently have open uses the deleted item, that field is cleared so you can choose another one.
 
 #### Choosing which item to apply in a document
 
