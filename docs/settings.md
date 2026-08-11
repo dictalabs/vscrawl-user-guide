@@ -107,18 +107,30 @@ Your saved items are applied while you fill in a document:
     
 2. Click the **same field again** — the picker opens so you can apply a different item to that field.
 
+The picker always matches the field you clicked, so it only ever offers items of the right type — signatures for a signature field, initials for an initials field, and stamps for a stamp field.
+
+**Signature field — "Choose a signature"**
+
 ![Choose a signature](images/signature-picker-choose-saved-item.png)
 
-From the picker you can:
+**Initials field — "Choose Initial"**
 
-- select any saved item — it is applied to **that field only**,
+![Choose Initial](images/signature-picker-choose-initial.png)
+
+**Stamp field — "Choose a stamp"**
+
+![Choose a stamp](images/signature-picker-choose-stamp.png)
+
+From any of the three you can:
+
+- select any saved item — it is applied to **that field only**; the item currently in use is outlined and carries a tick,
     
-- add a new signature, set of initials or stamp without leaving the document,
+- add a new item without leaving the document — **Add Signature**, **Add Initial** or **Add Stamp**, depending on which field you clicked,
     
-- delete an item you no longer need.
+- delete an item you no longer need, using the bin icon on its card.
 
 !!! note ""
-    Your choice is remembered per field, so one document can carry a different signature on different fields.
+    Your choice is remembered per field, so one document can carry a different signature, set of initials or stamp on each field.
 
 ### Notifications Settings
 
