@@ -39,6 +39,44 @@ To delete an account:
 !!! warning ""
     **Note:** Account deletion may permanently remove user data and associated documents. This action should be performed carefully.
 
+Deleting your account removes your sign-in, your draft documents, your saved signatures and initials, and your signing certificates. Documents you had already sent but that were not yet completed are voided, so no one can sign them afterwards.
+
+Two things are worth knowing before you do it:
+
+- **Documents you have already signed are not deleted.** Your name stays on them, along with the record that you signed them. Other people rely on those signatures, and the law requires them to be kept — a signature that could be erased would not be a signature.
+- **If you own an organization with other members**, you cannot delete your account until you transfer ownership or remove the other members first.
+
+### Your Privacy Rights
+
+You have rights over the personal information held about you, and most of them you can exercise yourself from this Settings page.
+
+| What you want | How |
+| --- | --- |
+| **Correct something that is wrong** | Edit it under **Account Settings** above and click **Save** |
+| **Delete your account and data** | **Delete Account** above |
+| **Change what the app remembers in your browser** | **Cookie preferences**, at the bottom of the Privacy Policy page |
+| **Turn off mobile crash reports and analytics** | In the mobile app, **Settings → Privacy** |
+| **Get a copy of your data**, or ask a question about how it is used | Contact your organization owner, or the address given in the Privacy Policy |
+
+### What is recorded about you
+
+So that nothing here is a surprise:
+
+- **Your account details** — name, email, username, language and notification preferences.
+- **Your documents** — what you upload, who you send it to, and what is typed into the fields.
+- **Your signature and initials images**, and any stamps you add.
+- **A record of your activity** — actions you take, with the time, your IP address and your browser. This is what makes the [Audit Report](audit_report.md) possible, and it is what makes a signature defensible if it is ever questioned.
+- **Your consent to sign electronically**, where your organization requires it — including the exact wording you accepted, the time, your IP address and your browser.
+
+!!! note ""
+    The organization that sent you a document decides what information that document asks for and how long it is kept. If you want a document changed or removed, contact the organization that sent it — they control it, not the platform.
+
+### Mobile privacy settings
+
+The mobile app asks, the first time you open it, whether it may send crash reports and usage analytics. **Both start switched off.** You can change your answer at any time in **Settings → Privacy** in the app.
+
+Choosing **Reset privacy choices** there stops all collection and deletes the diagnostic data held on your device. The app works exactly the same either way — nothing about signing, documents or your account depends on it.
+
 ### Security Settings
 
 - Here you can set the security settings for your account by setting up:  
