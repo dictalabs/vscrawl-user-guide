@@ -9,7 +9,7 @@ The  **Settings** page** in vScrawl allows you to manage your **account details,
     
 - Useful for confirming which **account** you are logged into.
     
-- Clicking the **Settings** option in the left-side navigation panel allows users to access and manage **Account Settings, Signature Settings, Notification Settings, Security Settings, Assistant, and Auto Delegation** from a centralized location.
+- Clicking the **Settings** option in the left-side navigation panel allows users to access and manage **Account Settings, Signature Settings, Notification Settings, Security Settings, Privacy, Assistant, and Auto Delegation** from a centralized location.
 
 ![vScrawl Settings](images/profie-settings-account.png)
 
@@ -54,9 +54,110 @@ You have rights over the personal information held about you, and most of them y
 | --- | --- |
 | **Correct something that is wrong** | Edit it under **Account Settings** above and click **Save** |
 | **Delete your account and data** | **Delete Account** above |
-| **Change what the app remembers in your browser** | **Cookie preferences**, at the bottom of the Privacy Policy page |
+| **Get a copy of your data** | **Settings → Privacy → Download my data** |
+| **Change what the app remembers in your browser** | **Settings → Privacy → Cookie preferences**, or the same link at the bottom of the Privacy Policy page |
 | **Turn off mobile crash reports and analytics** | In the mobile app, **Settings → Privacy** |
-| **Get a copy of your data**, or ask a question about how it is used | Contact your organization owner, or the address given in the Privacy Policy |
+| **Ask a question about how your information is used** | Contact your organization owner, or the address given in the Privacy Policy |
+
+#### Download my data
+
+**Settings → Privacy → Download my data** gives you a ZIP file containing your
+account details, your settings, the documents you own or were asked to sign,
+your signing activity, your saved signatures, your certificates, your
+notifications and your account history. If you applied for a qualified
+certificate, it also contains the identity details you gave for that. Everything
+in it is plain text you can open and read.
+
+Start with **`README.md`** inside the archive. It lists what each file holds, what
+is deliberately left out and why, and where to ask for anything missing.
+
+The files are written to be read, not decoded. Dates appear as
+*31 August 2026, 11:36 AM (UTC)* rather than as a machine timestamp, file sizes as
+*13 KB*, and statuses in words — *"Sent — waiting for signatures"* rather than a
+code. Internal record numbers are not included: they mean nothing outside our
+database and answer no question you would have.
+
+If your activity history is very long the archive holds your most recent entries
+and says so — ask us and we will send you the rest.
+
+Some things are deliberately left out:
+
+- **The document files themselves and your signature images.** You already have
+  these — download a document from the Documents screen, and your signature
+  images from **Signature Settings**.
+- **The scan of your identity document**, if you uploaded one. It is your own
+  file, and we delete our copy once your application has been reviewed.
+- **Your consent to sign electronically.** That is recorded per document and shown
+  in full in each document's Audit Report, which you can download from the
+  document itself.
+- **Other people's names and email addresses.** Where a document had other
+  signers, the file says how many there were, not who they were. They have
+  privacy rights too.
+
+Your security details — your two-factor code seed and your security-question
+answer — are also left out on purpose. They protect your account, and putting
+them in a file you are about to save or email would weaken that.
+
+Each download is recorded in your account history, so you can always see when a
+copy was taken.
+
+### Cookies and what the site remembers
+
+The first time you open vScrawl in a browser, a panel appears at the bottom of the
+screen asking what the site may store on your device. Nothing optional is stored
+until you answer, and the page behind the panel does not respond until you do —
+that is deliberate, so the choice cannot be skipped by clicking past it.
+
+![Cookies and local storage](images/cookie-consent-banner.png)
+
+You have three answers:
+
+| Button | What it means |
+| --- | --- |
+| **Accept all** | Everything below is allowed |
+| **Reject all** | Only the strictly necessary items are stored. This is not a degraded version of the site — signing, documents and settings all work exactly the same |
+| **Customize** | Choose each optional purpose yourself |
+
+What each purpose covers:
+
+| Purpose | Can you refuse it | What it is for |
+| --- | --- | --- |
+| **Strictly necessary** | No — the site cannot work without it | Your sign-in session, security protections and your language choice |
+| **Functional** | Yes | Remembers choices you make in the interface, so you do not set them again on every visit |
+| **Analytics** | Yes | Measures how the service is used, so problems can be found and fixed |
+
+![Choosing each purpose](images/cookie-consent-customize.png)
+
+!!! note ""
+    **Settings → Privacy** shows what your installation actually uses today, alongside
+    the choice you made. If nothing optional is in use there, your answer still stands
+    and applies the moment any of it is.
+
+!!! note ""
+    **Refusing costs you nothing.** No feature is withheld from someone who rejects
+    the optional purposes. If a site makes you accept in order to use it, that is
+    not consent — it is a condition, and GDPR does not accept it as consent.
+
+Your answer is remembered per account. Signing in on a new browser or after
+clearing your browser data shows the panel again, because the answer was stored
+on the device you cleared.
+
+To change your mind later: **Settings → Privacy → Cookie preferences**, or the
+same link at the bottom of the Privacy Policy page. The Privacy tab also shows what
+you chose and when, so you can check without opening anything technical.
+
+![Settings, Privacy tab](images/settings-privacy-tab.png)
+
+### Where to read the Privacy Policy and Terms
+
+Both are linked from the bottom of the left-hand menu on every page, from the
+sign-up page, from the cookie panel, and from **Settings → Privacy**. They are
+published by the organization that runs your vScrawl installation, so their content
+is theirs — not the platform's.
+
+If a page opens and says the policy is not available, that organization has not
+published it yet. Ask your organization owner; they can publish it from the admin
+console.
 
 ### What is recorded about you
 
