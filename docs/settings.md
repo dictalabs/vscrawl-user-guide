@@ -55,7 +55,7 @@ You have rights over the personal information held about you, and most of them y
 | **Correct something that is wrong** | Edit it under **Account Settings** above and click **Save** |
 | **Delete your account and data** | **Delete Account** above |
 | **Get a copy of your data** | **Settings → Privacy → Download my data** |
-| **Change what the app remembers in your browser** | **Settings → Privacy → Cookie preferences**, or the same link at the bottom of the Privacy Policy page |
+| **See what the app remembers in your browser** | **Settings → Privacy** shows the answer you gave and when |
 | **Turn off mobile crash reports and analytics** | In the mobile app, **Settings → Privacy** |
 | **Ask a question about how your information is used** | Contact your organization owner, or the address given in the Privacy Policy |
 
@@ -129,9 +129,9 @@ What each purpose covers:
 ![Choosing each purpose](images/cookie-consent-customize.png)
 
 !!! note ""
-    **Settings → Privacy** shows what your installation actually uses today, alongside
-    the choice you made. If nothing optional is in use there, your answer still stands
-    and applies the moment any of it is.
+    **Settings → Privacy** shows the answer you gave and when you gave it — for example
+    "Accept all" with the date, or the individual purposes you picked under **Customize**.
+    It also states that strictly necessary storage is always used, whatever you chose.
 
 !!! note ""
     **Refusing costs you nothing.** No feature is withheld from someone who rejects
@@ -142,16 +142,20 @@ Your answer is remembered per account. Signing in on a new browser or after
 clearing your browser data shows the panel again, because the answer was stored
 on the device you cleared.
 
-To change your mind later: **Settings → Privacy → Cookie preferences**, or the
-same link at the bottom of the Privacy Policy page. The Privacy tab also shows what
-you chose and when, so you can check without opening anything technical.
+**Settings → Privacy** shows what you chose and when, so you can check without opening
+anything technical.
+
+!!! note ""
+    To answer differently, clear this site's stored data in your browser — the panel then
+    appears on your next visit and your new answer replaces the old one. Your documents,
+    signatures and account are not affected; only the stored answer is.
 
 ![Settings, Privacy tab](images/settings-privacy-tab.png)
 
 ### Where to read the Privacy Policy and Terms
 
 Both are linked from the bottom of the left-hand menu on every page, from the
-sign-up page, from the cookie panel, and from **Settings → Privacy**. They are
+sign-up page, and from the cookie panel. They are
 published by the organization that runs your vScrawl installation, so their content
 is theirs — not the platform's.
 
@@ -168,6 +172,7 @@ So that nothing here is a surprise:
 - **Your signature and initials images**, and any stamps you add.
 - **A record of your activity** — actions you take, with the time, your IP address and your browser. This is what makes the [Audit Report](audit_report.md) possible, and it is what makes a signature defensible if it is ever questioned.
 - **Your consent to sign electronically**, where your organization requires it — including the exact wording you accepted, the time, your IP address and your browser.
+- **Your acceptance of the Terms and Privacy Policy** when you created the account — the time, the address you accepted from, which screen asked you, and a short mark identifying the exact wording you were shown. This appears in your account history as **Terms and Privacy Policy Accepted**, and it is included in the copy you can download above.
 
 !!! note ""
     The organization that sent you a document decides what information that document asks for and how long it is kept. If you want a document changed or removed, contact the organization that sent it — they control it, not the platform.
