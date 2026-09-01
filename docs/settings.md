@@ -104,43 +104,33 @@ copy was taken.
 
 ### Cookies and what the site remembers
 
-The first time you open vScrawl in a browser, a panel appears at the bottom of the
-screen asking what the site may store on your device. Nothing optional is stored
-until you answer, and the page behind the panel does not respond until you do —
-that is deliberate, so the choice cannot be skipped by clicking past it.
+The first time you open vScrawl in a browser, a short notice appears at the foot of
+the screen telling you what the site keeps on your device. It is a notice rather
+than a question: **Accept** closes it, and the page carries on working normally
+while it is there — you can scroll, click and keep going without answering first.
 
-![Cookies and local storage](images/cookie-consent-banner.png)
+![Cookies](images/cookie-consent-banner.png)
 
-You have three answers:
+**Only the cookies the service cannot work without are used:**
 
-| Button | What it means |
+| What it covers | Why it is needed |
 | --- | --- |
-| **Accept all** | Everything below is allowed |
-| **Reject all** | Only the strictly necessary items are stored. This is not a degraded version of the site — signing, documents and settings all work exactly the same |
-| **Customize** | Choose each optional purpose yourself |
+| Your sign-in session | Keeps you signed in as you move between pages |
+| Security protections | Stops other sites acting on your behalf |
+| Your language choice | So the app opens in the language you picked |
 
-What each purpose covers:
-
-| Purpose | Can you refuse it | What it is for |
-| --- | --- | --- |
-| **Strictly necessary** | No — the site cannot work without it | Your sign-in session, security protections and your language choice |
-| **Functional** | Yes | Remembers choices you make in the interface, so you do not set them again on every visit |
-| **Analytics** | Yes | Measures how the service is used, so problems can be found and fixed |
-
-![Choosing each purpose](images/cookie-consent-customize.png)
+**There is nothing to refuse.** vScrawl sets no advertising cookies, no tracking
+cookies and no third-party analytics — so there is no optional category to accept
+or reject, and nothing is withheld from anybody. The law requires consent for
+optional storage; storage a service genuinely cannot run without is exempt, and
+that is all this is.
 
 !!! note ""
-    **Settings → Privacy** shows the answer you gave and when you gave it — for example
-    "Accept all" with the date, or the individual purposes you picked under **Customize**.
-    It also states that strictly necessary storage is always used, whatever you chose.
-
-!!! note ""
-    **Refusing costs you nothing.** No feature is withheld from someone who rejects
-    the optional purposes. If a site makes you accept in order to use it, that is
-    not consent — it is a condition, and GDPR does not accept it as consent.
+    **Settings → Privacy** shows that you accepted the notice and when, and states
+    that strictly necessary storage is always used.
 
 Your answer is remembered per account. Signing in on a new browser or after
-clearing your browser data shows the panel again, because the answer was stored
+clearing your browser data shows the notice again, because the answer was stored
 on the device you cleared.
 
 **Settings → Privacy** shows what you chose and when, so you can check without opening
