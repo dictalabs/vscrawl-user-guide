@@ -41,10 +41,11 @@ To delete an account:
 
 Deleting your account removes your sign-in, your draft documents, your saved signatures and initials, and your signing certificates. Documents you had already sent but that were not yet completed are voided, so no one can sign them afterwards.
 
-Two things are worth knowing before you do it:
+Three things are worth knowing before you do it:
 
 - **Documents you have already signed are not deleted.** Your name stays on them, along with the record that you signed them. Other people rely on those signatures, and the law requires them to be kept — a signature that could be erased would not be a signature.
 - **If you own an organization with other members**, you cannot delete your account until you transfer ownership or remove the other members first.
+- **Your administrator decides how much is removed.** The description above is what happens on the standard setting. Some installations are configured to close the account without removing anything, so that signing up again with the same email address brings you back to it, with your documents where you left them. If that matters to you, ask whoever runs your installation which way it is set.
 
 ### Your Privacy Rights
 
