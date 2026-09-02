@@ -3,13 +3,13 @@
 ## User Specific Settings 
 ### Settings
 
-The  **Settings** page** in vScrawl allows you to manage your **account details, security preferences, online signatures, and notifications**. This is where you personalize your profile and ensure your signing experience is both secure and efficient.
+The **Settings** page in vScrawl allows you to manage your **account details, security preferences, online signatures, and notifications**. This is where you personalize your profile and ensure your signing experience is both secure and efficient.
 
 - Displays your **name and email address**.
     
 - Useful for confirming which **account** you are logged into.
     
-- Clicking the **Settings** option in the left-side navigation panel allows users to access and manage **Account Settings, Signature Settings, Notification Settings, Security Settings, Privacy, Assistant, and Auto Delegation** from a centralized location.
+- Clicking the **Settings** option in the left-side navigation panel allows users to access and manage **Account Settings, Signature Settings, Notification Settings, Security Settings, Assistant, and Auto Delegation** from a centralized location.
 
 ![vScrawl Settings](images/profie-settings-account.png)
 
@@ -23,9 +23,60 @@ The  **Settings** page** in vScrawl allows you to manage your **account details,
 
 - **Language** - Your selected language.
 
+- **Download my data** – The last block on the tab. It gives you a copy of everything held in your account, and it acts on click — it is not part of **Save**. See [Download my data](#download-my-data) below.
 
-    
 - After changes, click **Save** to update your profile.
+
+#### Download my data
+
+**Settings → Account Settings → Download my data** gives you a ZIP file containing your
+account details, your settings, the documents you own or were asked to sign,
+your signing activity, your saved signatures, your certificates, your
+notifications and your account history. If you applied for a qualified
+certificate, it also contains the identity details you gave for that. Everything
+in it is plain text you can open and read.
+
+The button sits at the foot of the Account Settings tab, under **Language**. Click it once — it
+prepares the archive and the download starts on its own. While it is working the button shows
+**Preparing your download…**; it does not need **Save**, and nothing else on the tab is affected.
+
+Start with **`README.md`** inside the archive. It lists what each file holds, what
+is deliberately left out and why, and where to ask for anything missing.
+
+**Every list is in date order with the most recent entry first**, so the newest
+document, the latest signing activity and your most recent account history are at
+the top of each file rather than buried at the bottom.
+
+The files are written to be read, not decoded. Dates appear as
+*31 August 2026, 11:36 AM (UTC)* rather than as a machine timestamp, file sizes as
+*13 KB*, and statuses in words — *"Sent — waiting for signatures"* rather than a
+code. Internal record numbers are not included: they mean nothing outside our
+database and answer no question you would have.
+
+If your activity history is very long the archive holds your most recent entries
+and says so — ask us and we will send you the rest.
+
+Some things are deliberately left out:
+
+- **The document files themselves and your signature images.** You already have
+  these — download a document from the Documents screen, and your signature
+  images from **Signature Settings**.
+- **The scan of your identity document**, if you uploaded one. It is your own
+  file — you still have it, and it is the one thing in your record that would do
+  the most damage if the archive went astray.
+- **Your consent to sign electronically.** That is recorded per document and shown
+  in full in each document's Audit Report, which you can download from the
+  document itself.
+- **Other people's names and email addresses.** Where a document had other
+  signers, the file says how many there were, not who they were. They have
+  privacy rights too.
+
+Your security details — your two-factor code seed and your security-question
+answer — are also left out on purpose. They protect your account, and putting
+them in a file you are about to save or email would weaken that.
+
+Each download is recorded in your account history, so you can always see when a
+copy was taken.
 
 ### Delete Account
 
@@ -87,58 +138,16 @@ You have rights over the personal information held about you, and most of them y
 | What you want | How |
 | --- | --- |
 | **Correct something that is wrong** | Edit it under **Account Settings** above and click **Save** |
+| **Get a copy of your data** | **Settings → Account Settings → Download my data** |
 | **Delete your account and data** | **Delete Account** above |
-| **Get a copy of your data** | **Settings → Privacy → Download my data** |
-| **See what the app remembers in your browser** | **Settings → Privacy** shows the answer you gave and when |
-| **Turn off mobile crash reports and analytics** | In the mobile app, **Settings → Privacy** |
+| **Turn off mobile crash reports and analytics** | In the **mobile app**, **Settings → Privacy** |
 | **Ask a question about how your information is used** | Contact your organization owner, or the address given in the Privacy Policy |
 
-#### Download my data
-
-**Settings → Privacy → Download my data** gives you a ZIP file containing your
-account details, your settings, the documents you own or were asked to sign,
-your signing activity, your saved signatures, your certificates, your
-notifications and your account history. If you applied for a qualified
-certificate, it also contains the identity details you gave for that. Everything
-in it is plain text you can open and read.
-
-Start with **`README.md`** inside the archive. It lists what each file holds, what
-is deliberately left out and why, and where to ask for anything missing.
-
-**Every list is in date order with the most recent entry first**, so the newest
-document, the latest signing activity and your most recent account history are at
-the top of each file rather than buried at the bottom.
-
-The files are written to be read, not decoded. Dates appear as
-*31 August 2026, 11:36 AM (UTC)* rather than as a machine timestamp, file sizes as
-*13 KB*, and statuses in words — *"Sent — waiting for signatures"* rather than a
-code. Internal record numbers are not included: they mean nothing outside our
-database and answer no question you would have.
-
-If your activity history is very long the archive holds your most recent entries
-and says so — ask us and we will send you the rest.
-
-Some things are deliberately left out:
-
-- **The document files themselves and your signature images.** You already have
-  these — download a document from the Documents screen, and your signature
-  images from **Signature Settings**.
-- **The scan of your identity document**, if you uploaded one. It is your own
-  file — you still have it, and it is the one thing in your record that would do
-  the most damage if the archive went astray.
-- **Your consent to sign electronically.** That is recorded per document and shown
-  in full in each document's Audit Report, which you can download from the
-  document itself.
-- **Other people's names and email addresses.** Where a document had other
-  signers, the file says how many there were, not who they were. They have
-  privacy rights too.
-
-Your security details — your two-factor code seed and your security-question
-answer — are also left out on purpose. They protect your account, and putting
-them in a file you are about to save or email would weaken that.
-
-Each download is recorded in your account history, so you can always see when a
-copy was taken.
+!!! note ""
+    There is no separate **Privacy** tab in the web app. Everything you can do yourself is on
+    **Account Settings** — correcting your details, downloading your data, and deleting your
+    account. The **Privacy** screen described further down belongs to the mobile app, which has
+    crash-report and analytics choices the web app does not collect at all.
 
 ### Cookies and what the site remembers
 
@@ -167,28 +176,21 @@ or reject, and nothing is withheld from anybody. The law requires consent for
 optional storage; storage a service genuinely cannot run without is exempt, and
 that is all this is.
 
-!!! note ""
-    **Settings → Privacy** shows that you accepted the notice and when, and states
-    that strictly necessary storage is always used.
-
-Your answer is remembered per account. Signing in on a new browser or after
-clearing your browser data shows the notice again, because the answer was stored
-on the device you cleared.
-
-**Settings → Privacy** shows what you chose and when, so you can check without opening
-anything technical.
+Your acknowledgement is remembered **in the browser you gave it in**, not on your account.
+Signing in on a different browser or device, or clearing this site's stored data, shows the
+notice again — the answer was kept on the device you cleared.
 
 !!! note ""
-    To answer differently, clear this site's stored data in your browser — the panel then
-    appears on your next visit and your new answer replaces the old one. Your documents,
-    signatures and account are not affected; only the stored answer is.
-
-![Settings, Privacy tab](images/settings-privacy-tab.png)
+    There is no page in the app that lists your answer back to you, and nothing to change: the
+    only storage vScrawl sets is the kind the service cannot run without, and that is used
+    whichever way you answer. To see the notice again, clear this site's stored data in your
+    browser — it appears on your next sign-in. Your documents, signatures and account are not
+    affected; only the stored acknowledgement is.
 
 ### Where to read the Privacy Policy and Terms
 
-Both are linked from the bottom of the left-hand menu on every page, from the
-sign-up page, and from the cookie panel. They are
+Both are linked from the bottom of the left-hand menu on every page and from the
+sign-up page; the cookie notice links the Privacy Policy. They are
 published by the organization that runs your vScrawl installation, so their content
 is theirs — not the platform's.
 
@@ -210,9 +212,13 @@ So that nothing here is a surprise:
 !!! note ""
     The organization that sent you a document decides what information that document asks for and how long it is kept. If you want a document changed or removed, contact the organization that sent it — they control it, not the platform.
 
-### Mobile privacy settings
+### Mobile app privacy settings
 
-The mobile app asks, the first time you open it, whether it may send crash reports and usage analytics. **Both start switched off.** You can change your answer at any time in **Settings → Privacy** in the app.
+!!! note ""
+    This section is about the **vScrawl mobile app** only. The web app has no Privacy screen
+    because it collects none of this — no crash reports, no usage analytics.
+
+The mobile app asks, the first time you open it, whether it may send crash reports and usage analytics. **Both start switched off.** You can change your answer at any time in **Settings → Privacy** in the mobile app.
 
 Choosing **Reset privacy choices** there stops all collection and deletes the diagnostic data held on your device. The app works exactly the same either way — nothing about signing, documents or your account depends on it.
 
