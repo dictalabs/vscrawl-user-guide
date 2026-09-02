@@ -4,7 +4,7 @@ The **Folders** feature in vScrawl helps users organize and manage documents eff
 
 Folders provide a structured way to maintain documents and improve workflow organization, especially when working with multiple files.
 
-![Pasted image 20260601121335.png](images/Pasted image 20260601121335.png)
+![Pasted image 202606011213352.png](images/Pasted image 202606011213352.png)
 
 ---
 ## Accessing Folders
