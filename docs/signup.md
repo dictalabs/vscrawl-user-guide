@@ -14,12 +14,6 @@
 ![Pasted image 20260525193336.png](images/Pasted image 20260525193336.png)
 
 - Select to agree the **Terms and Conditions** and **Privacy Policy** and click **“Create your free account”**.
-
-!!! note ""
-    The box is **not** ticked for you, and the account is not created until you tick
-    it — that is what makes it consent rather than an assumption. Your acceptance is
-    stored with your account, along with the date and the address you accepted from,
-    so it can be shown later if anyone asks what you agreed to and when.
     
 - An account activation email will be received, **Verify your account** → **account gets activated** → **login from the Login page.**
 
