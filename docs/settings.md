@@ -47,6 +47,39 @@ Three things are worth knowing before you do it:
 - **If you own an organization with other members**, you cannot delete your account until you transfer ownership or remove the other members first.
 - **Your administrator decides how much is removed.** The description above is what happens on the standard setting. Some installations are configured to close the account without removing anything, so that signing up again with the same email address brings you back to it, with your documents where you left them. If that matters to you, ask whoever runs your installation which way it is set.
 
+### If you stop using your account
+
+Some installations close accounts that nobody has signed in to for a long time. If
+yours does, **you are always warned by email first** — no account is ever closed
+without notice.
+
+The email is titled *"your account will be closed"* and tells you two things:
+
+- **how long the account has been unused**, and
+- **how many days you have left** to sign in and keep it.
+
+Signing in is all it takes. One sign-in resets the clock and the account is left
+alone; there is nothing to reply to and no form to fill in.
+
+!!! note ""
+    **The warning always arrives before the deadline, never on the same day.** The
+    gap between the two is set by your administrator, and the email states it.
+
+If you do nothing, the account is closed on a later date. That removes your
+sign-in, your drafts and your saved signatures — exactly what deleting the account
+yourself would do, including the part that matters most:
+
+- **Documents you have already signed are not affected.** They are kept as
+  evidence, and other people may rely on them.
+
+If you no longer want the account, you do not need to do anything.
+
+!!! tip ""
+    The same warning is written into your notifications inside the app, so if the
+    email went to an address you no longer read, it is still on your account.
+    Whether your installation closes dormant accounts at all — and after how long
+    — is up to your administrator; ask them if you need the exact periods.
+
 ### Your Privacy Rights
 
 You have rights over the personal information held about you, and most of them you can exercise yourself from this Settings page.
@@ -72,6 +105,10 @@ in it is plain text you can open and read.
 Start with **`README.md`** inside the archive. It lists what each file holds, what
 is deliberately left out and why, and where to ask for anything missing.
 
+**Every list is in date order with the most recent entry first**, so the newest
+document, the latest signing activity and your most recent account history are at
+the top of each file rather than buried at the bottom.
+
 The files are written to be read, not decoded. Dates appear as
 *31 August 2026, 11:36 AM (UTC)* rather than as a machine timestamp, file sizes as
 *13 KB*, and statuses in words — *"Sent — waiting for signatures"* rather than a
@@ -87,7 +124,8 @@ Some things are deliberately left out:
   these — download a document from the Documents screen, and your signature
   images from **Signature Settings**.
 - **The scan of your identity document**, if you uploaded one. It is your own
-  file, and we delete our copy once your application has been reviewed.
+  file — you still have it, and it is the one thing in your record that would do
+  the most damage if the archive went astray.
 - **Your consent to sign electronically.** That is recorded per document and shown
   in full in each document's Audit Report, which you can download from the
   document itself.
@@ -104,10 +142,14 @@ copy was taken.
 
 ### Cookies and what the site remembers
 
-The first time you open vScrawl in a browser, a short notice appears at the foot of
-the screen telling you what the site keeps on your device. It is a notice rather
-than a question: **Accept** closes it, and the page carries on working normally
-while it is there — you can scroll, click and keep going without answering first.
+The first time you sign in on a browser, a short notice appears at the foot of the
+screen telling you what the site keeps on your device. It is a notice rather than a
+question: **Accept** closes it, and the page carries on working normally while it is
+there — you can scroll, click and keep going without answering first.
+
+It waits for you to sign in because that is when the cookies it describes begin. Open
+the Privacy Policy or Terms page without signing in and the site stores nothing at
+all, so there is nothing to tell you about yet.
 
 ![Cookies](images/cookie-consent-banner.png)
 
