@@ -26,6 +26,8 @@ The sign-in page has its own language control, at the foot of the card. Picking 
 translates the sign-in pages **and carries into the application**: sign in through an Arabic
 sign-in page and vScrawl opens in Arabic, right to left, with no second choice to make.
 
+![vScrawl Settings](images/LDD_on_Signin.png)
+
 !!! note ""
     Your choice is remembered on your account, not just in that browser, so it follows you to your
     other devices the next time you sign in there.
@@ -33,3 +35,4 @@ sign-in page and vScrawl opens in Arabic, right to left, with no second choice t
     A language you pick **inside** the application wins over the sign-in page. If you set Spanish in
     the dropdown above and later sign in on a machine whose sign-in page is still showing Arabic,
     vScrawl opens in Spanish — the deliberate choice is the one that is kept.
+
