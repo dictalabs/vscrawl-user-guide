@@ -18,7 +18,7 @@ For each template, you have quick access controls:
 
 
 
-![Pasted image 20260601114536.png](images/Pasted image 20260601114536.png)
+![Templates](images/Templates.png)
 
 ## Using a Template with Placeholder Recipients
 

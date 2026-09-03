@@ -1,10 +1,10 @@
-# folder management
+# Folder management
 
 The **Folders** feature in vScrawl helps users organize and manage documents efficiently. By creating folders, users can group related documents together, making them easier to locate, review, and manage.
 
 Folders provide a structured way to maintain documents and improve workflow organization, especially when working with multiple files.
 
-![Pasted image 202606011213352.png](images/Pasted image 202606011213352.png)
+![folders](images/Myfolder.png)
 
 ---
 ## Accessing Folders
