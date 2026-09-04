@@ -81,6 +81,7 @@ Each document entry includes:
 - **Document Name** – The title of the document.
 - **Document Details** – Information such as document count and number of signatories.
 - **Sender Information** – The user who created or submitted the document.
+- **Folder** – The folder the document has been filed into, if any. Documents that are not in a folder show a dash (—).
 - **Status** – The current stage of the document workflow.
 - **Date** – The date and time of the most recent activity.
 - **Actions** – Available options for viewing or managing the document.

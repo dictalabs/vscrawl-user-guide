@@ -41,6 +41,14 @@ Search results can be further refined using the document status filters availabl
 
 For example, you can search for **"Authorization"** and then select the **Completed** filter to view only completed authorization documents.
 
+### Folder Column
+
+The document list includes a **Folder** column that shows which folder each document has been filed into, making it easy to see how your documents are organized at a glance.
+
+- Documents that have not been placed in a folder show a dash (**—**).
+- Click the **Folder** column header to sort documents alphabetically by folder name, just like the other sortable columns.
+- To file a document into a folder, or move it to a different one, use the **Move** option from the document's action menu (see below).
+
 ### Uploading Single and Multiple Documents
 
 At the top of the **Documents,** you will find the **Upload Document** button, the primary action for starting a workflow. Clicking it opens a **Choose signing method** dialog with three options:
