@@ -28,7 +28,7 @@ To upload a document:
 
 1. Click **Upload Document**.
 2. Choose a signing method from the dialog that opens: **Sign Yourself**, **Multiple Recipients**, or **Power Survey**. See [Documents](documents.md) for details on each option.
-3. Select the desired file from your device.
+3. Select the desired file from your device — or click **Cloud storage** to bring one in from your Google Drive or Dropbox, where your organization offers it. See [Importing from Google Drive or Dropbox](documents.md#importing-from-google-drive-or-dropbox).
 4. Configure recipients, signatures, and workflow settings as required.
 5. Submit the document for processing.
 
@@ -81,7 +81,6 @@ Each document entry includes:
 - **Document Name** – The title of the document.
 - **Document Details** – Information such as document count and number of signatories.
 - **Sender Information** – The user who created or submitted the document.
-- **Folder** – The folder the document has been filed into, if any. Documents that are not in a folder show a dash (—).
 - **Status** – The current stage of the document workflow.
 - **Date** – The date and time of the most recent activity.
 - **Actions** – Available options for viewing or managing the document.

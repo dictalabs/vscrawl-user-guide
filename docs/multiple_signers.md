@@ -3,7 +3,7 @@
 ## Multi-User Signing
 
 - Click Upload Document → **Multiple Recipients**
-- Select your file **(Browser from your PC or drag a document to upload)** Now click on the **Add Signers button**.  
+- Select your file — browse from your PC, drag a document in, or click **Cloud storage** to import one from your Google Drive or Dropbox (see [Importing from Google Drive or Dropbox](documents.md#importing-from-google-drive-or-dropbox)). Now click on the **Add Signers button**.  
     
 
 ![vScrawl Documents](images/signer-details-multisign.png)

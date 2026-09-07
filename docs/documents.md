@@ -41,14 +41,6 @@ Search results can be further refined using the document status filters availabl
 
 For example, you can search for **"Authorization"** and then select the **Completed** filter to view only completed authorization documents.
 
-### Folder Column
-
-The document list includes a **Folder** column that shows which folder each document has been filed into, making it easy to see how your documents are organized at a glance.
-
-- Documents that have not been placed in a folder show a dash (**—**).
-- Click the **Folder** column header to sort documents alphabetically by folder name, just like the other sortable columns.
-- To file a document into a folder, or move it to a different one, use the **Move** option from the document's action menu (see below).
-
 ### Uploading Single and Multiple Documents
 
 At the top of the **Documents,** you will find the **Upload Document** button, the primary action for starting a workflow. Clicking it opens a **Choose signing method** dialog with three options:
@@ -64,7 +56,7 @@ At the top of the **Documents,** you will find the **Upload Document** button, t
 !!! note ""
     This section focuses exclusively on the document upload process. Detailed information regarding document signing workflows is provided in the workflows section of this guide: [Sign Yourself](sign_yourself.md), [Multiple Signers](multiple_signers.md), and [Power Survey](power_survey.md).
 
-Users can upload up to **five documents simultaneously** in supported formats, including **PDF, DOC, and DOCX**, by either **browsing files from their computer** or using the **drag-and-drop upload** feature.. The documents appear in the upload screen where you can:
+Users can upload up to **five documents simultaneously** in supported formats — **PDF, DOC, and DOCX**, up to **25MB** each — by **browsing files from their computer**, using the **drag-and-drop upload** feature, or by importing from [Google Drive or Dropbox](#importing-from-google-drive-or-dropbox) where the organization offers it. The documents appear in the upload screen where you can:
 
 - **Reorder** them by dragging and dropping into your preferred sequence.
     
@@ -73,6 +65,32 @@ Users can upload up to **five documents simultaneously** in supported formats, i
   **Delete** a file using the 🗑️ icon.
 
 ![documents-gets-prepared.png](images/documents-gets-prepared.png)
+
+### Importing from Google Drive or Dropbox
+
+Alongside **Browse files**, the upload screen may show a **Cloud storage** button. It lets you bring in a document you keep in your own Google Drive or Dropbox, without downloading it to your computer first.
+
+The button appears only where your organization's plan includes it, and only for the providers your administrator has set up. If you do not see it, ask your administrator whether cloud import is enabled for your organization.
+
+To import a document:
+
+1. Click **Cloud storage**.
+2. Choose **Google Drive** or **Dropbox** in the dialog that opens.
+3. Click **Open Google Drive** / **Open Dropbox**. The provider's own window appears — sign in there if you are asked to.
+4. Pick your document. It is copied into vScrawl and appears in the upload list exactly like a file you had browsed for.
+
+!!! note "Only the file you pick is imported"
+    vScrawl is not connected to your Drive or Dropbox account. It stores no password and no access key for it, cannot browse it, and cannot see anything else you keep there. You choose the file inside the provider's own window, and only that one file is sent across.
+
+Imported documents follow the same rules as uploaded ones:
+
+- **PDF, DOC and DOCX** only. A file of any other type is skipped, with a message naming it.
+- **25MB** maximum per file. A larger file is skipped the same way.
+- They count towards the **five documents** you can prepare at once.
+
+Once imported, a document is an ordinary uploaded document. Renaming, reordering, deleting or signing it works exactly as it does for anything else in the list, and nothing is ever written back to your Drive or Dropbox.
+
+![documents-now-preparing.png](images/google-drive.png)
 
 ### Document Preparation
 
