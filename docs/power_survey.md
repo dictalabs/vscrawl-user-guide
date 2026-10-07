@@ -4,6 +4,23 @@
 
 In the **Documents** list, Power Survey documents show their type as **Power Survey** and their progress as **X/Y completed** (e.g. "4/5 completed").
 
+## Creating a Power Survey
+
+1. Click **Upload Document** and choose **Power Survey** in the **Choose signing method** dialog.
+2. Upload the document — a Power Survey uses a single document — and click **Add Recipients**.
+3. Add the people who should each receive a copy:
+    - **Import CSV** – upload a `.csv` file with **Name** and **Email** columns (use **Download Sample CSV** to get the format). Invalid or duplicate rows are skipped.
+    - **Add Recipient** – add people one at a time.
+
+    The number of recipients a survey can have is limited by your platform administrator; once the limit is reached, no more recipients can be added.
+
+4. Click **Continue to Editor**. All fields you place belong to a single placeholder signer and are copied to every recipient's own copy automatically.
+5. Place your fields:
+    - Add at least one **signature** field — the survey cannot be sent without one.
+    - Only one advanced (AES or QES) signature field is allowed.
+    - Every field other than signature, initials and stamp fields needs a **Title** before the survey can be sent.
+6. Click **Send**. A **Sending documents** dialog shows progress while a copy is created for each recipient.
+
 ## Tracking Survey Recipients
 
 Open a Power Survey document from the Documents list to see the **Survey Recipients** page — a live view of every recipient's copy and signing status.
@@ -13,13 +30,13 @@ Open a Power Survey document from the Documents list to see the **Survey Recipie
 The page shows:
 
 - A progress bar with **X of Y responded** and a completion percentage.
-- A **Recipient** table listing each person's name, email, **Status** (Sent / Completed), and the **Date** of their last action.
+- A **Recipient** table listing each person's name, email, **Status** (for example Sent or Completed), and the **Date** of their last action.
 
 ### Actions
 
 From the top-right of the page:
 
-- **Export** – download the survey results.
+- **Export** – download the survey results as a CSV file.
 - **Cancel All** – cancel the survey for every recipient who hasn't yet responded.
 
 From the **Action** column on each recipient row:
@@ -28,4 +45,4 @@ From the **Action** column on each recipient row:
 
 ![power-survey-recipient-copy-view.png](images/power-survey-recipient-copy-view.png)
 
-- Use the **⋮** menu for further per-recipient actions.
+- Use the **⋮** menu for further per-recipient actions: **Audit Report**, **Download**, and — for a copy that was declined or cancelled — **Rejection Detail**.

@@ -18,17 +18,17 @@ The available tabs may vary depending on your subscription plan and user permiss
 
 ---
 !!! note ""
-    Only the **Organization Owner** has the authority to update the organization details.
+    The **Organization Owner**, and members whose role grants **Update** on the **Organizations** module, can update the organization details. Other users see them read-only. The **Compliance Mode** settings can be changed only by the Organization Owner.
 
-### Organization Tab
+### Details Tab
 
-The **Organization** tab contains core information about the organization and allows administrators to manage basic settings.
+The **Details** tab contains core information about the organization and allows administrators to manage basic settings.
 
 ### Organization Name
 
 The **Organization Name** field displays the official name of the organization associated with the workspace.
 
-Administrators can update the organization name when required.
+Administrators can update the organization name when required. The name must be unique — it cannot be the same as another organization's name.
 
 ### Owner Information
 
@@ -55,12 +55,21 @@ Selecting a consistent date format helps ensure clarity and standardization acro
 
 Organizations can upload a custom logo to personalize their vScrawl workspace.
 
-To update the logo:
-
-1. Click **Change Logo**.
-2. Select an image file from your device.
-3. Upload and save the changes.
+The logo is managed in the **Branding Settings** tab — see [Branding Settings](branding.md).
 
 The uploaded logo may be displayed throughout the platform, depending on branding settings and subscription features.
+
+### Compliance Mode
+
+If your service plan includes them, the **Compliance Mode** section shows the signing modes your organization uses:
+
+- **eIDAS (EU) — Advanced & Qualified Electronic Signatures**
+- **ESIGN + UETA (US) — Simple Electronic Signatures with consent disclosure**
+
+When your plan includes both modes, the Organization Owner can choose which ones are enabled; at least one must stay enabled. While the organization uses only ESIGN + UETA mode, Advanced (AES) and Qualified (QES) signatures are not available. If digital signatures are switched off for the whole platform, a note under the eIDAS option says so, and AES and QES stay unavailable regardless of this setting.
+
+When ESIGN + UETA mode is active and evidence reports are enabled on the platform, the Organization Owner can also turn on **Attach evidence report to signed document**: single-document workflows then have the audit trail evidence report merged into the final signed PDF.
+
+Click **Save** to apply your changes.
 
 

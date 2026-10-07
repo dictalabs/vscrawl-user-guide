@@ -1,6 +1,6 @@
 # Billing Details
 
-The **Billing Details** tab shows your organization's current signature-credit balance and purchase history at a glance.
+The **Billing Details** tab shows your organization's current credit balance and most recent credit purchase at a glance.
 
 ## Accessing Billing Details
 
@@ -20,4 +20,4 @@ The **Account Balance** card shows:
 - **Credits Expiry Date** – When the current credit balance expires.
 
 !!! note ""
-    Only the **Organization Owner** and users with billing permissions can view this tab.
+    Only the **Organization Owner** and users whose role grants **View** on the **Billing Details** module can view this tab.

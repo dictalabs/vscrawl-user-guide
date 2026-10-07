@@ -4,17 +4,19 @@ The **Templates section** in vScrawl is designed to save time by allowing you to
 
 For each template, you have quick access controls:
 
-- **Use this template** – Start a new signing process using the selected template.
+- **Use this template** – Start a new signing process using the selected template (available when your role allows using templates).
     
-- **More Options (⋮)** – Download, **Analytics**, Rename, Duplicate, or Delete, depending on permissions.
+- **More Options (⋮)** – Download, **Analytics**, Rename, Move to Folder, Copy to Folder, Duplicate, or Delete, depending on permissions. **Move to Folder** and **Copy to Folder** are available to the organization owner once at least one folder exists.
     
-- Use the **search bar** at the top right to quickly locate templates by name.
+- Use the **search bar** to quickly locate templates by name.
     
 - Useful when you have a large number of templates.
     
-- Adjust how many templates are displayed per page (e.g., 10, 20, 50).
+- Use **Sort** to order templates by **Newest first**, **Oldest first**, **A – Z** or **Z – A**.
     
-- Navigate between pages if there are many templates.
+- More templates load automatically as you scroll down the list.
+
+- Select several templates and click **Delete Selected** to delete them together.
 
 
 
@@ -24,12 +26,25 @@ For each template, you have quick access controls:
 
 If a template was saved with one or more [recipient labels](multiple_signers.md) (placeholder roles instead of real people), clicking **Use this template** first opens a **Review Recipients** dialog.
 
-For each placeholder role shown (marked **Required**), enter the actual **Name** and **Email** of the person who should fill that role for this specific document. Click **Apply Template** once all placeholders are filled — the document then proceeds as normal with those recipients assigned.
+For each placeholder role shown (marked **Required**), enter the actual **Name** and **Email** of the person who should fill that role for this specific document, or click **Choose from team** to pick a colleague. Click **Apply Template** once all placeholders are filled — the document then proceeds as normal with those recipients assigned.
 
 ![apply-template-review-recipients.png](images/apply-template-review-recipients.png)
 
 !!! note ""
     Templates with no placeholder recipients skip this dialog and go straight to document preparation.
+
+If automatic reminders were turned on for the workflow when it was saved as a template, documents created from the template start with the same reminder setting.
+
+## Template Folders
+
+The organization owner can organize templates into folders:
+
+- Click **New Folder** to create a folder in the current location. Open a folder to see its templates and sub-folders, and use the breadcrumb (**All Templates**) or **Back** to move up again.
+- Use a folder's **⋮** menu to **Rename** it, **Manage Access** (choose which roles can see the folder and its templates), or **Delete** it.
+- Use **Move to Folder** or **Copy to Folder** on a template to place it in a folder.
+
+!!! warning ""
+    Deleting a folder permanently deletes everything inside it, including its sub-folders and templates.
 
 ## Template Analytics
 
@@ -39,7 +54,7 @@ Every template tracks how it performs across the workflows created from it. Open
 
 The **Template Analytics** page shows top-level stats — **Total Workflows**, **Completion Rate**, **Average Time to Sign**, **Times Recovered** — followed by:
 
-- **Completion Rate** – Percentage of workflows completed, with a breakdown of **Completed**, **In progress**, and **Draft** workflow counts.
+- **Completion Rate** – Of the workflows that have finished (completed or void), the percentage that were completed, with a breakdown of workflow counts by status (**Completed**, **Void**, **In progress**, **Draft**).
 
 ![template-analytics-overview.png](images/template-analytics-overview.png)
 

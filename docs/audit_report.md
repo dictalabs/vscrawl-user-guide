@@ -10,6 +10,9 @@ The **Audit Report** is a dedicated, full-page timeline of everything that happe
 
 ![audit-report-menu-action.png](images/audit-report-menu-action.png)
 
+!!! note ""
+    A **Power Survey** row has no **Audit Report** entry in this menu — each recipient's copy has its own audit action on the Power Survey screen instead. See [Power Survey](power_survey.md).
+
 ## Summary and Activity Log
 
 The Audit Report opens as a full page with two sections:
@@ -17,9 +20,15 @@ The Audit Report opens as a full page with two sections:
 - **Summary** – Subject, Owner, Signing Flow, Status, Workflow ID, Sent/Created/Completed timestamps, Time zone, the list of **Documents**, and the list of **Recipients** with their current status.
 - **Activity log** – A chronological, timestamped list of every event on the document (Created, Opened, Sent invitations, Consent, Signed, Completed), each showing who performed it, their IP address, and access channel.
 
-You can download the document and its evidence report from the **Download** button in the top-right corner.
+Timestamps are shown as date and time to the minute, converted to your own time zone; the **Time zone** row in the Summary names the zone in use.
+
+You can download the document and its evidence report from the **Download** button in the top-right corner. It works the same way as **Download** on the [Documents](documents.md#downloading-documents) page: for a completed document with a separate evidence report you choose **Download all**, **Signed document** or **Evidence report**. Each entry in the Summary's **Documents** list also has its own download button, for saving a single file.
 
 ![audit-report-summary.png](images/audit-report-summary.png)
+
+### Generating a Missing Evidence Report
+
+If your organization produces evidence reports and a **completed** document does not have one yet — neither as a separate file nor merged into the signed PDF — the header shows a **Generate Evidence Report** button. Click it to create the report. When it is ready, an **Evidence report generated** message confirms it and the report can be downloaded like any other. If it fails, try again in a moment.
 
 ## Viewing Consent Details
 

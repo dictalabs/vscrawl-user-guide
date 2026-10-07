@@ -11,11 +11,13 @@
 - **Select Your Preferred Language**
     - Choose from the list of available languages:
         - **English**
-        - **Türkçe**
-        - **Español**
-        - **العربية**
+        - **العربية** (Arabic)
+        - **Español** (Spanish)
+        - **Türkçe** (Turkish)
 - **Interface Update**
-    - Once selected, the interface will automatically update to the selected language without requiring a page refresh.
+    - Once selected, the interface will automatically update to the selected language without requiring a page refresh. Choosing **العربية** also switches the layout to right-to-left.
+
+You can make the same choice under **Settings → Account Settings → Language**, which shows the four languages side by side.
 
 
 ![vScrawl Settings](images/dashboard-language-button.png)

@@ -4,16 +4,27 @@
 
 - Open a browser **(Chrome, Edge, or Firefox) or Safari**
     
-- Navigate to: [vScrawl: #1 eSigning and CLM solution](https://app.vscrawl.com/sign-in?redirectURL=%2Fdocuments%2Fall-documents "https://app.vscrawl.com/sign-in?redirectURL=%2Fdocuments%2Fall-documents")
+- Navigate to: [vScrawl: #1 eSigning and CLM solution](https://app.vscrawl.com/login "https://app.vscrawl.com/login")
     
-- Click **“Sign Up”.**
+- Click **“Sign Up”** next to *Don't have an account?*
     
-- Provide your **Full Name, Username, Email Address, Organization Name and password.**
+- Provide your **Full Name, Username, Email Address, Organization, Password** and **Confirm Password** (all required).
 
 
 ![Pasted image 20260525193336.png](images/Pasted image 20260525193336.png)
 
-- Select to agree the **Terms and Conditions** and **Privacy Policy** and click **“Create your free account”**.
+The form checks each field as you fill it in:
+
+| Field | Rule |
+| --- | --- |
+| **Full Name** | 6–50 characters — letters, spaces, hyphens and apostrophes only |
+| **Username** | 6–50 characters — letters, numbers, dots (.), underscores (_) and hyphens (-) |
+| **Email Address** | A valid email address |
+| **Organization** | 3–50 characters, including at least one letter |
+| **Password** | 8–20 characters, with at least one uppercase letter, one lowercase letter, one number and one special character |
+| **Confirm Password** | Must match the password |
+
+- Tick **I agree to the Terms of Service and Privacy Policy** and click **“Sign Up”**. The **Sign Up** button stays inactive until every field is valid and the box is ticked.
 
 !!! note ""
     The box is **not** ticked for you, and the account is not created until you tick
@@ -21,7 +32,7 @@
     stored with your account, along with the date and the address you accepted from,
     so it can be shown later if anyone asks what you agreed to and when.
     
-- An account activation email will be received, **Verify your account** → **account gets activated** → **login from the Login page.**
+- A **Check your email** page confirms that a verification link has been sent to your address (use **Resend Email** if it does not arrive, and check your spam folder). Click the link in the email → **Account verified** → **sign in from the Login page.**
 
 ![Pasted image 20260525193313.png](images/Pasted image 20260525193313.png)
 ## High-Assurance Certificate Registration Guide
@@ -34,16 +45,18 @@ When registering, enable the option:
 
 **“Request high-assurance qualified certificate (admin approval required)”**
 
-Once selected, you will be asked to complete the **High-Assurance Identity Verification** form and upload supporting identification documents.
+The option appears on the sign-up form only where your installation offers qualified certificates. Once selected, you will be asked to complete the **High-Assurance Identity Verification** form and upload supporting identification documents.
+
+If you did not request one when you signed up, you can still do it later from **Settings → Signature Settings → Qualified certificate** (see [Settings](settings.md#requesting-a-qualified-certificate)).
 ### Required Information
 
 Please provide accurate details exactly as they appear on your official identification documents, including:
 
-- First Name and Last Name
-- Date of Birth
+- First Name and Last Name (Middle Name is optional)
+- Date of Birth — you must be at least 18 years old
 - Gender and Nationality
-- Country and Place of Birth
-- Phone Number and Email Address
+- Country of Residence and Place of Birth
+- Mobile Phone (with country code) — your Email Address is filled in for you
 - National ID / Passport Number
 - Mother’s Maiden Name
 
@@ -53,8 +66,9 @@ Please provide accurate details exactly as they appear on your official identifi
 You must also:
 
 1. Select a valid document type.
-2. Upload a government-issued identity document (Image or PDF, max 5 MB).
-3. Choose your preferred meeting date and time for verification.
+2. Upload a government-issued identity document (Image or PDF, max 6 MB).
+3. Choose your preferred **Meeting Date** and **Preferred Time** — an agent will call you at the chosen time to verify you.
+4. Click **Finish**.
 
 Accepted documents may include:
 

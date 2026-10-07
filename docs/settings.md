@@ -15,13 +15,17 @@ The **Settings** page in vScrawl allows you to manage your **account details, se
 
 ### Account Settings
 
-- **Full Name** – Display name shown in your vScrawl account.
+- **Profile photo** – Click **Change Photo** (or the camera icon on your picture) to upload a **PNG or JPG** image of up to **1 MB**. Until you add one, your initials are shown.
+
+- **Full Name** – Display name shown in your vScrawl account (6–50 characters).
     
 - **Username** – Unique identifier (used for login or internal reference).
     
 - **Email** – Registered email address (used for login, notifications, and signing).
 
-- **Language** - Your selected language.
+    **Username** and **Email** are marked *Managed by your account — can't be changed* and cannot be edited here.
+
+- **Language** - Your selected language. Picking one applies it straight away. See [Languages](languages.md).
 
 - **Download my data** – The last block on the tab. It gives you a copy of everything held in your account, and it acts on click — it is not part of **Save**. See [Download my data](#download-my-data) below.
 
@@ -38,7 +42,7 @@ in it is plain text you can open and read.
 
 The button sits at the foot of the Account Settings tab, under **Language**. Click it once — it
 prepares the archive and the download starts on its own. While it is working the button shows
-**Preparing your download…**; it does not need **Save**, and nothing else on the tab is affected.
+**Preparing your download...**; it does not need **Save**, and nothing else on the tab is affected.
 
 Start with **`README.md`** inside the archive. It lists what each file holds, what
 is deliberately left out and why, and where to ask for anything missing.
@@ -84,18 +88,20 @@ Users also have the option to permanently delete their account.
 
 To delete an account:
 
-1. Click **Delete My Account**
-2. Confirm the action when prompted
+1. Click **Delete My Account** at the foot of the **Account Settings** tab, beside **Save**.
+2. Confirm the action in the **Delete Your Account?** dialog by clicking **Delete My Account** again, or click **Cancel** to keep your account.
+
+The dialog tells you which kind of deletion your installation performs: either *This action is permanent and cannot be undone*, or that your account *will be closed, not permanently deleted*. After deletion you are signed out.
 
 !!! warning ""
     **Note:** Account deletion may permanently remove user data and associated documents. This action should be performed carefully.
 
-Deleting your account removes your sign-in, your draft documents, your saved signatures and initials, and your signing certificates. Documents you had already sent but that were not yet completed are voided, so no one can sign them afterwards.
+Deleting your account removes your sign-in, your draft documents, your saved signatures, initials and stamps, and your signing certificates. Documents you had already sent but that were not yet completed are voided, so no one can sign them afterwards.
 
 Three things are worth knowing before you do it:
 
 - **Documents you have already signed are not deleted.** Your name stays on them, along with the record that you signed them. Other people rely on those signatures, and the law requires them to be kept — a signature that could be erased would not be a signature.
-- **If you own an organization with other members**, you cannot delete your account until you transfer ownership or remove the other members first.
+- **If you own an organization with other members**, you cannot delete your account until someone else owns it. When you try, a **Transfer organization ownership** dialog opens: choose the **New owner** from your members and click **Transfer ownership**, and the deletion then carries on. You can also remove the other members first.
 - **Your administrator decides how much is removed.** The description above is what happens on the standard setting. Some installations are configured to close the account without removing anything, so that signing up again with the same email address brings you back to it, with your documents where you left them. If that matters to you, ask whoever runs your installation which way it is set.
 
 ### If you stop using your account
@@ -126,7 +132,7 @@ yourself would do, including the part that matters most:
 If you no longer want the account, you do not need to do anything.
 
 !!! tip ""
-    The same warning is written into your notifications inside the app, so if the
+    The same warning is written into your notifications inside the app (the bell at the top of the page), so if the
     email went to an address you no longer read, it is still on your account.
     Whether your installation closes dormant accounts at all — and after how long
     — is up to your administrator; ask them if you need the exact periods.
@@ -151,8 +157,9 @@ You have rights over the personal information held about you, and most of them y
 
 ### Cookies and what the site remembers
 
-The first time you sign in on a browser, a short notice appears at the foot of the
-screen telling you what the site keeps on your device. It is a notice rather than a
+The first time you sign in on a browser — or open a document you were sent to sign — a short
+notice headed **Cookies** appears at the foot of the screen telling you what the site keeps on
+your device. It is a notice rather than a
 question: **Accept** closes it, and the page carries on working normally while it is
 there — you can scroll, click and keep going without answering first.
 
@@ -162,7 +169,7 @@ all, so there is nothing to tell you about yet.
 
 ![Cookies](images/cookie-consent-banner.png)
 
-**Only the cookies the service cannot work without are used:**
+**Only what the service cannot work without is kept on your device:**
 
 | What it covers | Why it is needed |
 | --- | --- |
@@ -176,9 +183,14 @@ or reject, and nothing is withheld from anybody. The law requires consent for
 optional storage; storage a service genuinely cannot run without is exempt, and
 that is all this is.
 
-Your acknowledgement is remembered **in the browser you gave it in**, not on your account.
-Signing in on a different browser or device, or clearing this site's stored data, shows the
-notice again — the answer was kept on the device you cleared.
+Whether the notice is shown is decided by what is remembered **in the browser you gave it in**.
+A copy of your answer is also recorded in your account history (in the copy you can download
+above it reads *Answered the cookie question*), but that record does not hide the notice anywhere
+else. The notice appears again when you:
+
+- sign in on a different browser or device, or clear this site's stored data;
+- sign in with a different account on the same browser — each person answers for themselves;
+- return after the Privacy Policy has been changed, or more than twelve months after you answered.
 
 !!! note ""
     There is no page in the app that lists your answer back to you, and nothing to change: the
@@ -189,8 +201,8 @@ notice again — the answer was kept on the device you cleared.
 
 ### Where to read the Privacy Policy and Terms
 
-Both are linked from the bottom of the left-hand menu on every page and from the
-sign-up page; the cookie notice links the Privacy Policy. They are
+Both are linked from the bottom of the left-hand menu on every page (each opens in a new
+tab) and from the sign-up page. They are
 published by the organization that runs your vScrawl installation, so their content
 is theirs — not the platform's.
 
@@ -207,7 +219,7 @@ So that nothing here is a surprise:
 - **Your signature and initials images**, and any stamps you add.
 - **A record of your activity** — actions you take, with the time, your IP address and your browser. This is what makes the [Audit Report](audit_report.md) possible, and it is what makes a signature defensible if it is ever questioned.
 - **Your consent to sign electronically**, where your organization requires it — including the exact wording you accepted, the time, your IP address and your browser.
-- **Your acceptance of the Terms and Privacy Policy** when you created the account — the time, the address you accepted from, which screen asked you, and a short mark identifying the exact wording you were shown. This appears in your account history as **Terms and Privacy Policy Accepted**, and it is included in the copy you can download above.
+- **Your acceptance of the Terms and Privacy Policy** when you created the account — the time, the address you accepted from, which screen asked you, and a short mark identifying the exact wording you were shown. This is recorded in your account history and included in the copy you can download above, where it reads *Created your account* — or *Accepted the Terms and Privacy Policy* if you accepted when setting up an invited account or after signing up with Google.
 
 !!! note ""
     The organization that sent you a document decides what information that document asks for and how long it is kept. If you want a document changed or removed, contact the organization that sent it — they control it, not the platform.
@@ -225,10 +237,11 @@ Choosing **Reset privacy choices** there stops all collection and deletes the di
 ### Security Settings
 
 - Here you can set the security settings for your account by setting up:  
-    - **Enable PassKey**
-    - **Enable Security Question**
-    - **Enable Two-Factor Authentication**
-    - **Smart Card Authentication**
+    - **Enable Passkey** – sign in with your fingerprint, face scan or screen lock instead of a password. Turning it on opens a pop-up window where you register the passkey (allow pop-ups for this site if your browser blocks it); a **Passkey registered** message confirms it.
+    - **Enable Security Question** – choose a **Security question** and enter **Your answer**. You are asked this question when you change your password.
+    - **Smart Card Authentication** – sign in with your Smart Card. Shown only where your administrator has enabled Smart Card sign-in, with a link to get the desktop app it needs.
+    - **Enable Two-Factor Authentication** – ask for a one-time code on every sign-in. Shown only where your administrator has enabled it. When you turn it on, scan the QR code with your authenticator app (or enter the key shown under it), type the 6-digit **Authentication code** and click **Enable 2FA**.
+- Click **Save** to apply your changes.
     
 
 ![vScrawl Settings](images/security-settings.png)
@@ -239,9 +252,13 @@ The **Signature Settings** tab is where you manage everything you sign with: the
 
 #### Signature type and allowance
 
-- Choose the assurance level applied when you sign a document: **Simple Electronic Signature**, **Advanced Electronic Signature** or **Qualified Electronic Signature**. The level currently applied is marked **IN USE**.
+- Choose the assurance level applied when you sign a document under **Signature Type**: **Simple Electronic Signature**, **Advanced Electronic Signature** or **Qualified Electronic Signature**. The level currently applied is marked **IN USE**.
     
-- If you belong to an **organization**, **Signature allowance** shows how many Electronic, Advanced and Qualified signatures your current plan includes.
+- A level your plan, organization or role does not allow is marked **UNAVAILABLE** and cannot be chosen. If only one level is available, the choice is locked.
+    
+- If the platform administrator has switched digital signatures off, **Advanced Electronic Signature** and **Qualified Electronic Signature** are not shown at all, and **Simple Electronic Signature** is used.
+    
+- If you are a **member** of an organization (rather than its owner), **Signature allowance** shows how many Electronic, Advanced and Qualified signatures your current plan includes. Advanced and Qualified counts are shown only where those levels are available.
 
 ![vScrawl Settings](images/setup-signature-types.png)
 
@@ -274,15 +291,15 @@ Click **Add Signature**, **Add Initial** or **Add Stamp** in the matching sectio
 
 | Tab | What you do |
 | --- | --- |
-| **Upload** | Click **Browse** and choose an image file from your device |
-| **Draw** | Draw the signature or initials by hand |
-| **Type** | Type your name and have it rendered in a handwriting style |
+| **Upload Signature** / **Upload Initial** | Click **Browse** and choose a **PNG, JPG or WEBP** image of up to **5 MB** from your device |
+| **Draw Signature** / **Draw Initial** | Draw the signature or initials by hand (**Clear** starts again) |
+| **Type Signature** / **Type Initial** | Type your name and have it rendered in a handwriting style |
 
 ![Add Signature](images/add-signature-dialog.png)
 
 ![Add Initial](images/add-initial-dialog.png)
 
-**Add Stamp** has no tabs — a stamp can only be uploaded, so the dialog goes straight to **Browse**.
+**Add Stamp** has no tabs — a stamp can only be uploaded (PNG, JPG or WEBP, up to 5 MB), so the dialog goes straight to **Browse**.
 
 ![Add Stamp](images/add-stamp-dialog.png)
 
@@ -343,6 +360,19 @@ From any of the three you can:
 !!! note ""
     Your choice is remembered per field, so one document can carry a different signature, set of initials or stamp on each field.
 
+#### Requesting a qualified certificate
+
+Where your installation issues qualified certificates (and digital signatures are switched on), the **Signature Settings** tab also has a **Qualified certificate** section, for anyone who did not request one when signing up:
+
+1. Tick **I want to use high-assurance and trusted certificates for my digital signatures**.
+2. Fill in the **High-Assurance Identity Verification** details exactly as they appear on your official identity document.
+3. Under **Identity Verification Documents**, choose the **Document Type**, upload the document (image or PDF, max 5 MB) and pick a **Meeting Date** and **Preferred Time** for the verification call.
+4. Click **Submit Request**.
+
+The section then shows where your request stands: under review by the admin, approved (your qualified certificate is active and you can sign with a qualified signature), or rejected — in which case review your details and click **Resubmit request**.
+
+Where a mobile app is offered, a **Mobile app** section with a QR code also appears on this tab; the mobile app is recommended for qualified and advanced electronic signatures.
+
 ### Notifications Settings
 
 The **Notifications** feature in vScrawl allows you to stay informed about the status of your documents throughout the signing workflow. You can customize which alerts you receive, ensuring that you are always up to date on important actions without unnecessary interruptions.
@@ -358,6 +388,8 @@ Here you can **choose** how you **receive updates**:
 - **Notify me when someone declines to sign my document**
     
 - **Notify all recipients when the workflow is completed**
+
+Turn each option on or off on the **Notification Settings** tab and click **Save**.
 
 ![vScrawl Settings](images/notification-settings.png)
 
@@ -395,6 +427,8 @@ To enable it:
 2. Enter the **Delegate Name** and **Delegate Email** of the person who should receive your documents.
 3. Set **Away From** and **Away Until** — the date range during which delegation is active.
 4. Click **Save**.
+
+The form checks a few rules before saving: both dates and times are required, **Away From** cannot be in the past, **Away Until** must be later than **Away From** and still in the future, the period can be at most **365 days**, and you cannot name yourself as your own delegate. While the period is running, an **Active now** badge appears beside **Enable Auto Delegation**.
 
 ![settings-auto-delegation-on.png](images/settings-auto-delegation-on.png)
 

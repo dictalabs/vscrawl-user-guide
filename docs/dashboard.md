@@ -27,7 +27,7 @@ The **Upload Document** button allows users to quickly initiate a new document w
 To upload a document:
 
 1. Click **Upload Document**.
-2. Choose a signing method from the dialog that opens: **Sign Yourself**, **Multiple Recipients**, or **Power Survey**. See [Documents](documents.md) for details on each option.
+2. Choose a signing method from the **Choose signing method** dialog: **Sign Yourself**, **Multiple Recipients**, or **Power Survey**. Only the methods your organization role allows are listed. See [Documents](documents.md) for details on each option.
 3. Select the desired file from your device — or click **Cloud storage** to bring one in from your Google Drive or Dropbox, where your organization offers it. See [Importing from Google Drive or Dropbox](documents.md#importing-from-google-drive-or-dropbox).
 4. Configure recipients, signatures, and workflow settings as required.
 5. Submit the document for processing.
@@ -78,12 +78,13 @@ The **Recent Documents** section provides a quick view of the latest documents c
 
 Each document entry includes:
 
-- **Document Name** – The title of the document.
-- **Document Details** – Information such as document count and number of signatories.
-- **Sender Information** – The user who created or submitted the document.
+- **Document** – The title of the document, with details such as document count and number of signatories underneath.
+- **From** – The user who created or submitted the document.
+- **Folder** – The folder the document is in, or a dash (—) if it is not in a folder.
+- **Type** – **Self Sign**, **Multi Sign** or **Power Survey**.
 - **Status** – The current stage of the document workflow.
-- **Date** – The date and time of the most recent activity.
-- **Actions** – Available options for viewing or managing the document.
+- **Date** – The date and time (to the minute) of the most recent activity.
+- **Action** – Open the document (eye icon) or use the **⋮** menu for more options.
 
 This section enables users to quickly access and monitor their most recent document activity without navigating to the Documents page.
 
@@ -110,7 +111,7 @@ The **View All** option allows users to navigate directly to the complete docume
 This page provides additional capabilities such as:
 
 - Searching documents.
-- Filtering by status.
+- Filtering by status and by date.
 - Managing document workflows.
 - Viewing document details.
 - Performing document-related actions.
@@ -127,13 +128,25 @@ Available navigation options include:
 - **Dashboard** – View an overview of your account activity, document statistics, pending signatures, team members, and recent documents.
 - **Documents** – Access, manage, and organize all uploaded and shared documents.
 - **Folders** – Create and manage folders to keep documents organized and easily accessible.
-- **Templates** – Manage reusable document templates for faster document preparation and workflows.
+- **Templates** – Manage reusable document templates for faster document preparation and workflows. This entry appears only if your organization role allows you to view templates.
 - **Organization** – Access organization-related settings, team management, and collaborative workspace features.
 - **Settings** – Configure account preferences, signature settings, notifications, language options, and security settings.
+
+At the bottom of the sidebar you will find links to the **Privacy Policy** and **Terms of Service** (each opens in a new tab) and the application version.
 
 The sidebar is designed to provide fast and convenient navigation throughout the platform while maintaining a clean and user-friendly experience.
 
 ![Sidebar Navigation](images/dashboard-screen.png)
+
+#### Header
+
+The bar across the top of every page holds:
+
+- **Language dropdown** – Switch the interface language. See [Languages](languages.md).
+- **Notification bell** – Shows in-app notifications for your account, such as a signing certificate that is about to expire, has expired or has been renewed. A red badge counts the unread ones. Click the bell to open the list, **Mark all read** to clear the badge, or hover over a notification and click the bin icon to dismiss it. The bell only appears when you have at least one notification.
+- **Your profile** – Your name and email address. Click it and choose **Sign out** to end your session.
+
+While you are in the signing flow — uploading a document, adding recipients or working in the document editor — the sidebar, the bell and the profile menu are hidden so you can focus on the task.
 
 
 ## Benefits of the Dashboard
