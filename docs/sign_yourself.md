@@ -19,19 +19,19 @@ This is the most common and straightforward signing option.
     **Field Requirements:** Fields with the Required Toggle (Right Panel) set to Enabled must be filled to sign; otherwise, all fields are optional.
 
 
-- For new users, you must choose how to create your signature: Upload an **Image**, **Draw**, or use **Text**.
+- If you don't have a saved signature yet, you are asked to create one: **Upload Signature** (a PNG, JPG or WEBP image), **Draw Signature**, or **Type Signature**.
 
 ![vScrawl Documents](images/signature-creation-screen-new-user.png)
 
 - After completing all required annotations and signature fields, click the **Sign & Finish** button to finalize the signing process.
 
-- When completed, you will see the **All Done** notification.
+- When completed, you will see the **All Done!** notification.
 
 ![vScrawl Documents](images/all-done.png)
 
-- When you click on the View button on the **All Done notification.** You can view your **signatures** along with the **annotations on the document.**
+- Click **View Document** on the **All Done!** notification to view your **signatures** along with the **annotations on the document**, or click **Documents** to return to your documents list.
 
-![[vscrawl-user-guide/docs/images/signed-document-ses-annotations.png|vScrawl Documents]]
+![vScrawl Documents](images/signed-document-ses-annotations.png)
 
 - **You can also access the Audit Report for a document by clicking the Audit Report button.** The Audit Report provides a detailed history of the document workflow, including recipient actions, timestamps, status changes, IP addresses, and device information, helping maintain transparency and compliance throughout the signing process.
 ![vScrawl Documents](images/signed-document-audit-report.png)
@@ -41,16 +41,16 @@ In vScrawl, digital signatures provide a secure, reliable, and legally compliant
 
 - Upload a document → **Sign Yourself**
     
-- Drop a signature field and annotations on the document from the left-hand panel and select one of the **Advanced Electronic Signature / Qualified Electronic Signature** from the **signature type** drop down on right-hand panel.
+- Drop a signature field and annotations on the document from the left-hand panel and select one of the **Advanced Electronic Signature / Qualified Electronic Signature** from the **Signature Type** drop down on right-hand panel. Only one advanced (AES or QES) signature field is allowed per document.
     
 - Fill all the **necessary annotations** on the **document.**
     
-- Click on the **Signature field** or on the **Sign** button present on the right-hand panel.
+- Click the **Sign & Finish** button.
     
-- Different Signing servers will appear after clicking on the signature field or sign button. You may choose one of these based on your preference. Let's explore these options one by one.
+- If more than one signing server is available, a **Select Signing Server** dialog lists them and you choose the one you want; if only one is available, vScrawl uses it directly. The servers offered depend on how your platform is configured. Let's explore these options one by one.
 ### vScrawl Signing Server
 
-- Choose the **vScrawl Signing Server** and enter your **password.**
+- Choose the **vScrawl Signing Server**, enter your **Signing Password** and click **Sign**.
 
 ![vScrawl Documents](images/signing-server-dialog-digital-signature.png)
 
@@ -58,17 +58,17 @@ In vScrawl, digital signatures provide a secure, reliable, and legally compliant
 
 - If you are signing up on vScrawl for the first time using **Google Authentication** or **Keycloak**, you will be asked to **set up a password** before you can use **Advanced Signatures**. This password will be linked to your account and required each time you apply an AES signature.
     
-- Now set up the **password** **(It must be at least 8 characters long and contain at least one lowercase letter, one uppercase letter, one digit, and one special character)** and click on the **OK** button.
+- In the **Create signing password** dialog, set up the **password** **(8–20 characters, with at least one lowercase letter, one uppercase letter, one digit, and one special character)** and click the **Sign** button.
     
 - The **signing process will start** and **you will see progress (Loading Indicator)** for the signing.
 
 ![vScrawl Documents](images/signing-process-loading-indicator.png)
 
-- When the process is **completed, then** the **All Done notification** will appear.
+- When the process is **completed, then** the **All Done!** notification will appear.
 
 ![vScrawl Documents](images/all-done.png)
 
-- Click on View button to see your signatures on the document and the **document is signed**.
+- Click **View Document** to see your signatures on the document and the **document is signed**.
 
 ![vScrawl Documents](images/signed-document-aes-annotations.png)
 
@@ -110,5 +110,5 @@ In vScrawl, digital signatures provide a secure, reliable, and legally compliant
 
 - A dialog will appear from where choose the appropriate signing **certificate**. On the next dialog, enter the **smart card or USB token** password and the signing process will be completed.
     
-- Click on **View button** to see your signatures on the document and the **document is signed**.
+- Click **View Document** to see your signatures on the document and the **document is signed**.
 

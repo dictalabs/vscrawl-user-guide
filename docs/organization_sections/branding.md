@@ -7,20 +7,22 @@ The **Branding Settings** section allows administrators to customize the appeara
 1. Navigate to **Organization**.
 2. Select the **Branding Settings** tab.
 
+Branding can be changed by the organization owner and by members whose role grants **Update** on the **Branding** module.
+
 ### Logo
 
 Upload a custom organization logo that will be displayed throughout the platform.
 
-1. Click **Browse** under **Logo**.
-2. Select an image file.
+1. Click **Browse** under **Logo** (**Change Logo** if a logo is already set).
+2. Select an image file (PNG, JPG, JPEG or SVG).
 3. Save your changes.
 
 ### Favicon
 
 Upload a custom favicon to be displayed in browser tabs.
 
-1. Click **Browse** under **Favicon**.
-2. Select an icon file.
+1. Click **Browse** under **Favicon** (**Change Favicon** if a favicon is already set).
+2. Select an icon file (PNG, JPG, JPEG or SVG).
 3. Save your changes.
 
 
@@ -45,7 +47,7 @@ Configure the **Main Background Color** used throughout the application workspac
 
 ### Dialogs Section
 
-Configure the color used for dialog boxes and modal windows.
+Configure the **Dialogs Color** used for dialog boxes and modal windows.
 
 ### Buttons Section
 
@@ -54,7 +56,7 @@ Configure the color used for dialog boxes and modal windows.
 
 ### Saving Changes
 
-After making the desired updates, click **Save** to apply the branding settings.
+As you change colors or images, the app shows a live preview of your branding. After making the desired updates, click **Save** to apply the branding settings.
 
 To restore the default appearance, click **Reset to Default**.
 

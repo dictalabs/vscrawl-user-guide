@@ -11,9 +11,9 @@ The following information is displayed for each user:
 - **Name** – User's full name and username.
 - **Email** – Registered email address.
 - **Joined On** – Date the user joined the organization.
-- **Status** – Current membership status.
-- **Role** – Assigned role within the organization.
-- **Actions** – Available user management options.
+- **Status** – Current membership status: **Joined**, **Invited** (invitation not yet accepted) or **Declined**.
+- **Role** – Assigned role within the organization; the organization owner is shown as **Owner**.
+- **Action** – Available user management options.
 
 ### Searching Users
 
@@ -26,12 +26,12 @@ Use the **Search by name or email** field to quickly locate users within the org
 
 ### Updating the User Roles & Settings
 
-- You can update the role of users in your organization.
+- You can update the role of users in your organization: open the **⋮** menu on a joined user's row and select **Update Role**.
     
-- You can also **renew** their **signature Quotas.**
+- You can also **renew** their **signature Quotas** from the same menu (**Renew Signature Quotas**), which adds the quotas defined by the user's role again.
     
-- You can **delete user** from your organization.
+- You can **delete user** from your organization with the delete (trash) icon. The organization owner cannot be deleted.
     
-- You can invite a new user to your **organization** by giving him the **roles & permissions** you want. 
+- You can invite a new user to your **organization** by giving him the **roles & permissions** you want: click **Invite User**, enter the **Name** (6–50 characters, letters and spaces only), **Email** and **Role**, and click **Invite**. The user appears as **Invited** until they accept the invitation. 
 ![updating-the-user-roles.png](../images/updating-the-user-roles.png)
 
