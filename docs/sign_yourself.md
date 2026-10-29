@@ -7,7 +7,7 @@ This is the most common and straightforward signing option.
 
 - Upload a document → **Sign Yourself**.
     
-- Drop a **signature field** and **annotations** on the document.
+- Drop a **signature field** and **annotations** on the document. On installations where automatic field detection is switched on, vScrawl may already have placed fields for you when the document first opens — review them as described in [Fields Added for You](documents.md#fields-added-for-you).
     
 - Fill all the **necessary annotations** on the **documents** and click on the **signature field**.
     

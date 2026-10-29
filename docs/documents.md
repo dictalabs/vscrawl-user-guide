@@ -73,7 +73,7 @@ At the top of the **Documents,** you will find the **Upload Document** button, t
 !!! note ""
     This section focuses exclusively on the document upload process. Detailed information regarding document signing workflows is provided in the workflows section of this guide: [Sign Yourself](sign_yourself.md), [Multiple Signers](multiple_signers.md), and [Power Survey](power_survey.md).
 
-Users can upload up to **five documents simultaneously** in supported formats — **PDF, DOC, and DOCX**, up to **25MB** each — by clicking **Browse Files**, using the **drag-and-drop upload** feature, or by importing from [Google Drive or Dropbox](#importing-from-google-drive-or-dropbox) where the organization offers it. **Power Survey** takes a **single document**. The documents appear in the upload screen where you can:
+Users can upload up to **five documents simultaneously** in supported formats — **PDF, DOC, and DOCX**, up to **25MB** each — by clicking **Browse Files**, using the **drag-and-drop upload** feature, by importing from [Google Drive or Dropbox](#importing-from-google-drive-or-dropbox) where the organization offers it, or by [drafting a new one with AI](#creating-a-document-with-ai) where your administrator has switched that on. **Power Survey** takes a **single document**. The documents appear in the upload screen where you can:
 
 - **Reorder** them with the **Move left** / **Move right** arrows under **Reorder** on each file card.
     
@@ -111,6 +111,31 @@ Once imported, a document is an ordinary uploaded document. Renaming, reordering
 
 ![documents-now-preparing.png](images/google-drive.png)
 
+### Creating a Document with AI
+
+If you do not have the document yet, the upload screen may show a **Create with AI** button next to **Browse Files** (after **Cloud storage**, when that is shown too). It is greyed out while files are uploading and once the upload list is full. It lets you describe the document you need in a chat and have AI draft it for you — for example a payslip, a rental agreement or an invoice.
+
+The button appears only when your administrator has switched this feature on. If you do not see it, it is not available on your installation.
+
+To create a document:
+
+1. Click **Create with AI**. The **Create a document with AI** window opens, with a chat on one side and a **Preview** on the other.
+2. Describe the document in the message box, for example *"a payslip for one month with earnings, deductions and net pay"*, and click **Send** (or press **Ctrl + Enter**). A message can be up to 4000 characters.
+3. While the AI writes, you see **Writing your document…** with a running character count. You can click **Stop** to cancel. Writing can take a minute or more.
+4. The document appears in the **Preview**. To change it, send another message, for example *"add a row for overtime pay"*. Each change makes a new version.
+5. To return to an earlier version, choose it from **Go back to a version** next to the **Send** button. This list appears once there are at least two versions.
+6. When the document is right, click **Use this document**. It is turned into a PDF (**Preparing PDF…**) and added to the upload list, and an **AI document added** message confirms it.
+
+From then on it is an ordinary uploaded document: you can rename, reorder or delete it, and add recipients, fields and signatures exactly as for any other file. It counts towards the **five documents** you can prepare at once.
+
+!!! warning "Always review the document"
+    AI-generated content can be wrong. Read the whole document before you send it for signing. Where the AI does not know a fact — a name, a date, an amount — it is asked to leave a label with a blank line (for example *Employee Name: ____________*) for you to fill in.
+
+!!! note ""
+    Clicking **Cancel** or closing the window throws the draft away. Nothing from it is kept unless you clicked **Use this document**.
+
+Your administrator sets how many messages you can send to the AI per day. If you reach the limit, you see *"You have reached your limit for AI document requests. Please try again later."* The count starts again the next day. Other messages you may see are *"The AI service is not reachable right now."*, *"The AI took too long to answer. Try a shorter request."* and *"The document came out too long. Ask for a shorter one."*
+
 ### Document Preparation
 
 After uploading documents, the next step depends on the selected signing workflow:
@@ -134,6 +159,24 @@ Within the Document Preparation workspace, users can conveniently switch between
 ![doc-prep-screen.png](images/doc-prep-screen.png)
 
 This ensures your **documents are organized** before moving into the signing workflow. This saves time and makes managing complex signing processes easier.
+
+### Fields Added for You
+
+On installations where automatic field detection is switched on, vScrawl reads your document and places fields where it finds places to fill in — signature lines, text boxes (such as names), dates, checkboxes and similar. This happens:
+
+- with **Multiple Recipients**, when the document is uploaded. vScrawl also recognises who each field is for (for example *Employee* or *Witness 1*) — see [Multiple Signers](multiple_signers.md).
+- with **Sign Yourself** or **Multiple Recipients**, when a document opens in the editor with no fields on it yet.
+
+**Power Survey** documents are never changed this way.
+
+When fields were added this way, a **We added fields to your document** window tells you how many fields were placed and what kinds they are, and — for documents with recipients — **who they are for** (fields without an owner show **Not assigned yet**). For fields found at upload, the window appears when you go into the editor straight from the upload steps. Click **Review the fields** to close it, then:
+
+- Check that each field sits in the right place and has the right type.
+- Move, resize or delete any that are wrong, and add any that are missing.
+- Make sure every field is assigned to the right person.
+
+!!! note ""
+    Fields are detected automatically from your document and can contain mistakes. A document that already has its own form fields is not changed — you are offered to use its existing fields instead. Fields you delete are normally not added again. If you delete every field, they may be suggested again when the document is reopened.
 
 ### Leaving Before You Finish
 
